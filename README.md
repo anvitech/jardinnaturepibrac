@@ -1,2 +1,3 @@
-# jardinnaturepibrac
-Website of the association Jardin Nature Pibrac
+# Jardin Nautre Pibrac web site
+
+This is a web site of the Jardin Nature Pibrac association
