@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <section 
       className={`
-        w-full h-dvh md:bg-[url(images/hero/Intro${count}.jpg)] bg-cover bg-center bg-no-repeat bg-fixed
+        w-full h-dvh md:bg-[url(https://anvitech.github.io/jardinnaturepibrac/images/hero/Intro${count}.jpg)] bg-cover bg-center bg-no-repeat bg-fixed
         text-center p-8 items-center justify-center flex flex-col`
       }
     >
@@ -28,7 +28,7 @@ export default function HeroSection() {
           href="https://jardinnaturepibrac.org/Service%20Civique.htm"
           target="_blank"
         >
-          <img src="/images/hero/rejoinez_nous_hero.jpg" alt="lien to service civique" className="w-96 h-96 object-contain" />
+          <img src="images/hero/rejoinez_nous_hero.jpg" alt="lien to service civique" className="w-96 h-96 object-contain" />
         </a>
       </div>
     </section>
