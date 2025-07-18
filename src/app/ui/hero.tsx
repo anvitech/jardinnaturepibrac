@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <section 
       className={`
-        w-full h-dvh md:bg-[url(https://anvitech.github.io/jardinnaturepibrac/images/hero/Intro${count}.jpg)] bg-cover bg-center bg-no-repeat bg-fixed
+        w-full h-dvh md:bg-[url(images/hero/Intro${count}.jpg)] bg-cover bg-center bg-no-repeat bg-fixed
         text-center p-8 items-center justify-center flex flex-col`
       }
     >
