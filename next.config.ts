@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
   output: "export",
   distDir: "dist",
   images: { unoptimized: true },
+  experimental: {
+    ppr: true,
+    // Include `turbo` so next-intl adds aliases here instead of the
+    // newer `turbopack` key, which isn't recognized in our Next.js version.
+    turbo: {},
+  }
 };
 
 export default withNextIntl(nextConfig);
