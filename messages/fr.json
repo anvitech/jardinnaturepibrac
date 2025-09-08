@@ -6,6 +6,18 @@
     "label": "Changer de langue",
     "locale": "{locale, select, fr {Français} es {Spanish} en {English} other {Unknown}}"
   },
+  "Contact": {
+    "title": "Contact",
+    "description": "Come and meet us at one of our conferences or contact us by email at the address",
+    "notification": "N'oubliez pas de nous mentioner vos nom, prénom, address email et téléphone pour nous permettre de vous contacter."
+  },
+  "Appointment": {
+    "title": "Next Appointment"
+  },
+  "Activities": {
+    "title": "Sharing Knowledge",
+    "description": "for gardening naturally, promoting agroecology and preserving biodiversity"
+  },
   "Menus": {
     "association": "Association",
     "agenda": "Agenda",
