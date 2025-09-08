@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   const [count, setCount] = useState(1);
@@ -22,15 +24,15 @@ export default function HeroSection() {
     >
       <div className="flex flex-row gap-8 justify-center items-center">
         <button className="bg-transparent border-none p-0">
-          <img src="images/logos/logo_JNP_180_300.gif" alt="logo jardin nature Pibrac" className="w-96 h-96 object-contain" />
+          <Image src="images/logos/logo_JNP_180_300.gif" alt="logo jardin nature Pibrac" className="w-96 h-96 object-contain" width={300} height={180}/>
         </button>
-        <a 
+        <Link 
           className="bg-transparent border-none p-0"
           href="https://jardinnaturepibrac.org/Service%20Civique.htm"
           target="_blank"
         >
-          <img src="images/hero/rejoinez_nous_hero.jpg" alt="lien to service civique" className="w-96 h-96 object-contain" />
-        </a>
+          <Image src="images/hero/rejoinez_nous_hero.jpg" alt="lien to service civique" className="w-96 h-96 object-contain" width={200} height={200}/>
+        </Link>
       </div>
     </section>
   );

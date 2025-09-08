@@ -1,0 +1,15 @@
+{
+  "LocaleLayout": {
+    "title": "Jardín Natural de Pibrac"
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, fr {Français} es {Spanish} en {English} other {Unknown}}"
+  },
+  "Menus": {
+    "association": "Asociación",
+    "agenda": "Agenda",
+    "forum": "Foro",
+    "biodiversity_path": "Sendero de biodiversidad"
+  }
+}
