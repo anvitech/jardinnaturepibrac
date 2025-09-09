@@ -18,6 +18,12 @@
     "title": "Partager les savoirs",
     "description": "pour jardiner au nature, promouvoir l'agroécologie et préserver la biodiversité"
   },
+  "Adhesion": {
+    "title": "Adhésion de Soutien à nos actions",
+    "subtitle": "Bulletin d'adhésion à nous retourner ou adhésion en ligne via HelloAsso",
+    "description": "L’association loi 1901 Jardin Nature Pibrac a été publiée au Journal Officiel en 2013. Elle est inscrite sous le numéro SIRET 797 528 148 00019 Catégorie 9220. L'adhésion ouvre droit à une réduction fiscale car l'assocation est reconnue d’intérêt général par rescrit fiscal en date du 21/02/2014 et donc remplit les conditions générales prévues aux articles 200 et 238 bis du code général des impôts. Vous pouvez déduire 66% de votre don dans la limite de 20% de votre revenu imposable.",
+    "note": "Adhésion en ligne en suivant le Lien ou le QRCode Helloasso ci-dessous"
+  },
   "Menus": {
     "association": "Association",
     "agenda": "Agenda",

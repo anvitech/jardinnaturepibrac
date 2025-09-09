@@ -18,6 +18,12 @@
     "title": "Compartir conocimientos",
     "description": "para jardinería natural, promover la agroecología y preservar la biodiversidad"
   },
+  "Adhesion": {
+    "title": "Membresía de apoyo para nuestras acciones",
+    "subtitle": "Formulario de membresía para devolvernos o membresía en línea a través de HelloAsso",
+    "description": "La asociación bajo la ley de 1901 Jardin Nature Pibrac fue publicada en el Diario Oficial en 2013. Está registrada bajo el número SIRET 797 528 148 00019 Categoría 9220. La membresía le da derecho a una reducción de impuestos porque la asociación es reconocida como de interés general por resolución fiscal con fecha 21/02/2014 y, por lo tanto, cumple con las condiciones generales previstas en los artículos 200 y 238 bis del Código General de Impuestos. Puede deducir el 66% de su donación dentro del límite del 20% de su ingreso imponible.",
+    "note": "Membresía en línea siguiendo el enlace o el código QR de Helloasso a continuación"
+  },
   "Menus": {
     "association": "Asociación",
     "agenda": "Agenda",
