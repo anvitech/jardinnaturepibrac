@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   output: "export",
   distDir: "dist",
   images: { unoptimized: true },
+  basePath: '/jardinnaturepibrac',
 };
 
 export default withNextIntl(nextConfig);
