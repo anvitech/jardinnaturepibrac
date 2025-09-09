@@ -8,15 +8,15 @@
   },
   "Contact": {
     "title": "Contact",
-    "description": "Come and meet us at one of our conferences or contact us by email at the address",
-    "notification": "N'oubliez pas de nous mentioner vos nom, prénom, address email et téléphone pour nous permettre de vous contacter."
+    "description": "Venga a reunirse con nosotros en una de nuestras conferencias o contáctenos por correo electrónico a la dirección",
+    "notification": "No olvide mencionar su nombre, apellido, dirección de correo electrónico y número de teléfono para que podamos contactarlo"
   },
   "Appointment": {
-    "title": "Next Appointment"
+    "title": "Próxima Cita"
   },
   "Activities": {
-    "title": "Sharing Knowledge",
-    "description": "for gardening naturally, promoting agroecology and preserving biodiversity"
+    "title": "Compartir conocimientos",
+    "description": "para jardinería natural, promover la agroecología y preservar la biodiversidad"
   },
   "Menus": {
     "association": "Asociación",

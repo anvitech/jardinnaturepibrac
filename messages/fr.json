@@ -8,15 +8,15 @@
   },
   "Contact": {
     "title": "Contact",
-    "description": "Come and meet us at one of our conferences or contact us by email at the address",
+    "description": "Venez nous rencontrer lors de l'une de nos conférences ou contactez nous par mail à l adresse",
     "notification": "N'oubliez pas de nous mentioner vos nom, prénom, address email et téléphone pour nous permettre de vous contacter."
   },
   "Appointment": {
-    "title": "Next Appointment"
+    "title": "Prochain Rendez-vous"
   },
   "Activities": {
-    "title": "Sharing Knowledge",
-    "description": "for gardening naturally, promoting agroecology and preserving biodiversity"
+    "title": "Partager les savoirs",
+    "description": "pour jardiner au nature, promouvoir l'agroécologie et préserver la biodiversité"
   },
   "Menus": {
     "association": "Association",
