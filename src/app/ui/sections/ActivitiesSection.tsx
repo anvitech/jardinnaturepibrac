@@ -18,12 +18,12 @@ export default function ActivitiesSection() {
           />
           <ButtonImage 
             href="https://jardinnaturepibrac.org/Agenda%20Jardin%20Nature%20Pibrac.htm#Ancre1"
-            src='/images/home/Conference.jpg'
+            src='/images/home/conference.jpg'
             alt='Conference event'
           />
           <ButtonImage 
             href="https://jardinnaturepibrac.org/Festi%20Jardin.htm"
-            src='/images/home/Festi_jardin.jpg'
+            src='/images/home/festi_jardin.jpg'
             alt='Conference event'
           />
         </div>
