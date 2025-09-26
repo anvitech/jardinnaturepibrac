@@ -34,6 +34,7 @@ export default function AdhesionSection() {
           src='/images/home/helloasso.jpg'
           alt='See HelloAsso'
           width={128}
+          className="object-scale-down"
         />
         <ButtonImage 
           href="https://www.helloasso.com/associations/jardin-nature-pibrac/adhesions/adhesion-de-soutien-2025-2026"

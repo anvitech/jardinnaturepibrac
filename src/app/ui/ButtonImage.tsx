@@ -19,7 +19,7 @@ export default function ButtonImage({
   height = 64,
   className,
 }: Readonly<ButtonImageProps>) {
-  const img_classname = `max-h-full justify-center object-fill md:object-cover ${className || ''}`;
+  const img_classname = `max-h-full justify-center ${className || ''}`;
   return (
     <Link href={href} className="p-0 border-0 bg-transparent cursor-pointer justify-center flex">
       <Image src={`${basePath}${src}`} alt={alt} className={img_classname} width={width} height={height}/>
