@@ -26,8 +26,28 @@
   },
   "Menus": {
     "association": "Asociación",
+    "association:sharing_knowledge": "Compartiendo conocimientos",
+    "association:adhesion": "Adhesión",
+    "association:contact": "Contacto",
+    "association:sponsors": "Sponsors",
     "agenda": "Agenda",
+    "agenda:next_event": "Próximo evento",
+    "agenda:this_season": "temporada actual",
+    "agenda:previous_seasons": "Temporadas anteriores",
     "forum": "Foro",
-    "biodiversity_path": "Sendero de biodiversidad"
+    "biodiversity_path": "Sendero de biodiversidad",
+    "biodiversity_path:introduction": "Introducción",
+    "biodiversity_path:visit": "Visita",
+    "biodiversity_path:map": "el mapa"
+  },
+  "Agenda": {
+    "next_conference": {
+      "title": "Agenda Jardin Nature de Pibrac",
+      "description": "La presentación estará a cargo de Marie-Pia Marchant, estudiante de doctorado de tercer año en la Universidad de Toulouse, codirigida por Georges Zissis (Laboratorio LAPLACE - Física de la Luz) y el Dr. Luc Legal, profesor titular del CRBE (Centro de Investigación sobre Biodiversidad y Medio Ambiente). Un tema fascinante sobre el impacto de la contaminación lumínica en la biodiversidad. Descubra cómo la iluminación artificial, al alterar el ciclo natural del día y la noche, modifica el comportamiento, las interacciones y la reproducción de las especies vivas. También será una oportunidad para explorar la diversidad y la belleza de las polillas, estas criaturas a menudo invisibles pero esenciales para nuestros ecosistemas, así como para analizar con mayor profundidad el impacto de esta contaminación lumínica en diferentes grupos de animales y plantas."
+    },
+    "current_season": {
+      "title": "Temporada actual",
+      "description":""
+    }
   }
 }
