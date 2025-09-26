@@ -8,6 +8,7 @@ type ButtonImageProps = {
   alt: string;
   width?: number;
   height?: number;
+  className?: string;
 };
 
 export default function ButtonImage({
@@ -16,8 +17,9 @@ export default function ButtonImage({
   alt,
   width = 200,
   height = 64,
+  className,
 }: Readonly<ButtonImageProps>) {
-  const img_classname = `m-auto max-h-full justify-center`;
+  const img_classname = `max-h-full justify-center object-fill md:object-cover ${className || ''}`;
   return (
     <Link href={href} className="p-0 border-0 bg-transparent cursor-pointer justify-center flex">
       <Image src={`${basePath}${src}`} alt={alt} className={img_classname} width={width} height={height}/>
