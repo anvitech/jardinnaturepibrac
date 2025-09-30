@@ -40,6 +40,19 @@
             "from": "Associations de défense de la Biodiversité Animations enfants",
             "note": "Entrée gratuite"
           }
+        },
+        {
+          "category": "conference",
+          "location": "Visio + Salle Polyvalente 31820 Pibrac",
+          "date": "Vendredi 16 Janvier 2026 20h30",
+          "type": "Conférence suivi d'un débat",
+          "title": "Histoire du Pastoralisme dans les Pyrénées",
+          "speaker": {
+            "name": "Animée par Christine Rendu",
+            "title": "Directrice de recherche au CNRS (DR2)",
+            "from": "Laboratoire TERRAE Archéologie et histoire des sociétés médiévales méridionales, Université Toulouse Jean Jaurès",
+            "note": ""
+          }
         }
       ]
     }
