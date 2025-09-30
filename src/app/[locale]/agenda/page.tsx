@@ -4,7 +4,7 @@ import {setRequestLocale} from 'next-intl/server';
 import PageLayout from '@/app/ui/PageLayout';
 import NextConferenceSection from '@/app/ui/sections/NextConferenceSection';
 import CurrentSeasonSection from '@/app/ui/sections/CurrentSeasonSection';
-import getData from '@/app/hooks/useData';
+import getData from '@/app/hooks/getData';
 
 export default function AgendaPage({params}: Readonly<PageProps<'/[locale]/agenda'>>) {
   const {locale} = use(params);

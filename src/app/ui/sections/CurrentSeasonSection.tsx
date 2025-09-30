@@ -28,10 +28,10 @@ export default function CurrentSeasonSection({ sections }: CurrentSeasonSectionP
         {conferences.map((conference) => (
           <AgendaCard 
             key={conference.title}
-            conference_location={conference.location}//"Visio + Salle Polyvalente 31820 Pibrac"
-            conference_date={conference.date}//"Vendredi 26 Septembre 2025 20h30"
-            conference_type={conference.type}//"Conférence suivi d'un débat"
-            conference_title={conference.title}//"Arrêt des pesticides : doux rêve ou objectif réalistePollution lumineuse et Faune nocturne"
+            conference_location={conference.location}
+            conference_date={conference.date}
+            conference_type={conference.type}
+            conference_title={conference.title}
             conference_speaker={conference.speaker}
           />
         ))}
