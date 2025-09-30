@@ -6,10 +6,11 @@ import { useTranslations } from "next-intl";
 
 type DropdownButtonProps = {
   label: string;
+  href: string;
   items: { name: string; href: { pathname: string }; onClick?: () => void }[];
 };
 
-export const DropdownButton: React.FC<DropdownButtonProps> = ({ label, items }) => {
+export const DropdownButton: React.FC<DropdownButtonProps> = ({ label, href, items }) => {
   const t = useTranslations("Menus");
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLLIElement>(null);
@@ -20,7 +21,7 @@ export const DropdownButton: React.FC<DropdownButtonProps> = ({ label, items }) 
     >
       <Link
         key={label}
-        href={"#"}
+        href={href}
         className="text-green-700 hover:text-green-800 cursor-pointer"
         tabIndex={0}
         aria-haspopup="true"

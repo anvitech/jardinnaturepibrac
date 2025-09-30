@@ -1,10 +1,9 @@
 
 interface ConferenceSpeaker {
   name: string,
-  grade: string,
-  laboratory: string,
-  university: string,
-  function: string
+  title: string,
+  from: string,
+  note: string,
 }
 
 interface AgendaCardProps {
@@ -32,10 +31,9 @@ export default function AgendaCard({
       <h2 className="text-red-600 font-semibold my-6">{conference_title}</h2>
       <div className="italic text-[14px]/[20px]">
         <p>{conference_speaker.name}</p>
-        <p>{conference_speaker.grade}</p>
-        <p>{conference_speaker.laboratory}</p>
-        <p>{conference_speaker.university}</p>
-        <p>{conference_speaker.function}</p>
+        <p>{conference_speaker.title}</p>
+        <p>{conference_speaker.from}</p>
+        <p>{conference_speaker.note}</p>
       </div>
     </div>
   )

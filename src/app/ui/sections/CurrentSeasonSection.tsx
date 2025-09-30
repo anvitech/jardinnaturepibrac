@@ -1,10 +1,18 @@
+import { use } from 'react';
 import {useTranslations} from 'next-intl';
 import AgendaCard from '../AgendaCard';
 import Image from 'next/image';
 import { basePath } from '../../../../next.config';
+import { SectionsType } from '@/interfaces/sections';
 
-export default function CurrentSeasonSection() {
+interface CurrentSeasonSectionProps {
+  readonly sections: Promise<SectionsType>;
+}
+
+export default function CurrentSeasonSection({ sections }: CurrentSeasonSectionProps) {
   const t = useTranslations('Agenda');
+  const allSections = use(sections);
+  const conferences = allSections.sections.current_season.cards
 
   return (
     <section id="current_season" className="py-8 px-4 w-full text-center">
@@ -17,45 +25,16 @@ export default function CurrentSeasonSection() {
         height={64}
       />
       <div className='grid grid-cols-3 gap-4 justify-items-center my-8 px-32'>
-        <AgendaCard 
-          conference_location="Visio + Salle Polyvalente 31820 Pibrac"
-          conference_date="Vendredi 26 Septembre 2025 20h30"
-          conference_type="Conférence suivi d'un débat"
-          conference_title="Pollution lumineuse et Faune nocturne"
-          conference_speaker={{
-            'name': 'Animée par Marie-Pia Marchant',
-            'grade': 'Doctorante',
-            'laboratory': "Laboratoire plasma et conversion d'énergie Laplace /CRBE",
-            'university': "Université Paul Sabatier Toulouse III et Luc LEGAL",
-            'function': "Maître de conférences, HDR, Centre de Recherche sur la Biodiversité et l'Environnement CNRS Université Paul Sabatier Toulouse III"
-          }}
-        />
-        <AgendaCard 
-          conference_location="Visio + Salle Polyvalente 31820 Pibrac"
-          conference_date="Vendredi 17 Octobre 2025 20h30"
-          conference_type="Conférence suivi d'un débat"
-          conference_title="Arrêt des pesticides : doux rêve ou objectif réaliste ?"
-          conference_speaker={{
-            'name': 'Animée par Jean-Noël Aubertot',
-            'grade': '',
-            'laboratory': "",
-            'university': "",
-            'function': "Directeur de recherche équipe VASCO de l'unité AGIR INRAE Castanet Tolosan"
-          }}
-        />
-        <AgendaCard 
-          conference_location="Esplanade Sainte Germaine 31820 Pibrac"
-          conference_date="Dimanche 9 Novembre 2025 9h-18h"
-          conference_type="Conférence suivi d'un débat"
-          conference_title="Festi'Jardin Nature et Plantes 11è édition"
-          conference_speaker={{
-            'name': '75+ exposants',
-            'grade': '',
-            'laboratory': "Pépinièristes, Horticulteurs, Artisans",
-            'university': "Associations de défense de la Biodiversité Animations enfants",
-            'function': "Entrée gratuite"
-          }}
-        />
+        {conferences.map((conference) => (
+          <AgendaCard 
+            key={conference.title}
+            conference_location={conference.location}//"Visio + Salle Polyvalente 31820 Pibrac"
+            conference_date={conference.date}//"Vendredi 26 Septembre 2025 20h30"
+            conference_type={conference.type}//"Conférence suivi d'un débat"
+            conference_title={conference.title}//"Arrêt des pesticides : doux rêve ou objectif réalistePollution lumineuse et Faune nocturne"
+            conference_speaker={conference.speaker}
+          />
+        ))}
       </div>
     </section>
   )

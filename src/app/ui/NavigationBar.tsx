@@ -46,7 +46,7 @@ export default function NavigationBar() {
       <ul className="flex gap-5">
         {menuItems.map((item) =>
           item.children && (
-            <DropdownButton key={item.name} label={item.name} items={item.children}></DropdownButton>
+            <DropdownButton key={item.name} label={item.name} href={item.href.pathname} items={item.children}></DropdownButton>
           ) || (
             <li key={item.name}>
               <Link 
