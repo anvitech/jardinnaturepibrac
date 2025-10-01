@@ -23,7 +23,7 @@ export default function AgendaCard({
 } : Readonly<AgendaCardProps>) {
 
   return (
-    <div className="p-4 border-2 border-b-emerald-600 text-center">
+    <div className="p-4 ring shadow-xl/30 rounded-lg text-center">
       <p className="text-[12px]/[16px] italic">{conference_location}</p>
       <h3 className="text-green-600">{conference_date}</h3>
       <p className="italic text-[12px]/[16px]">{conference_type}</p>
