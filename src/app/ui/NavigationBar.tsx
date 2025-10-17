@@ -36,24 +36,19 @@ const menuItems = [
   },
 ];
 
-/*************  ✨ Windsurf Command 🌟  *************/
 export default function NavigationBar() {
   const t = useTranslations('Menus');
   const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleToggle = () => setIsOpen((prev) => !prev);
 
   return (
     <nav aria-label="navigation" className="flex flex-row items-center justify-between p-4 lg:px-8 text-2xl font-semibold">
-      <ul className="flex gap-5">
+      <ul className="flex flex-nowrap gap-5">
         {menuItems.map((item) =>
           item.children && (
-            <DropdownButton key={item.name} label={item.name} href={item.href.pathname} items={item.children} isOpen={isOpen} onToggle={handleToggle}></DropdownButton>
             <DropdownButton key={item.name} label={item.name} href={item.href.pathname} items={item.children}></DropdownButton>
           ) || (
-            <li key={item.name}>
+            <li key={item.name} className="inline-block">
               <Link
                 key={item.name}
                 href={item.href.pathname}
@@ -61,7 +56,6 @@ export default function NavigationBar() {
                 className={`${
                   isActive(item.href.pathname) ? 'text-green-600 hover:text-green-800 underline' : 'text-green-700 hover:text-green-800'
                 }`}
-                onClick={handleToggle}
               >
                 {t(item.name)}
               </Link>
@@ -69,10 +63,6 @@ export default function NavigationBar() {
           )
         )}
       </ul>
-      <button className="lg:hidden" onClick={handleToggle}>
-        {isOpen ? <XIcon /> : <MenuIcon />}
-      </button>
     </nav>
   );
 }
-/*******  a37d4ec4-e961-4066-9d19-8608086772cd  *******/
