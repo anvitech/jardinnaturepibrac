@@ -26,7 +26,6 @@ concurrency:
 
 env:
   NEXT_PUBLIC_BASE_PATH: /jardinnaturepibrac
-  NEXT_PUBLIC_HOST: https://anvitech.github.io
 
 jobs:
   # Build job

@@ -10,9 +10,8 @@ import { ImageType, PageDataType } from "@/interfaces/sections";
 const fetcher = (url: string) => fetch(url).then((r) => r.json())
 
 export function useImages(): { data: { sharing_knowledge: ImageType[] } | undefined, error: string | undefined } {
-  const host = process.env.NEXT_PUBLIC_HOST || '';
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-  const url = `${basePath}/${host}/jardinnaturepibrac/data/images.json`;
+  const url = `${basePath}/data/images.json`;
   const { data, error } = useSWR(
     url,
     fetcher
@@ -22,7 +21,8 @@ export function useImages(): { data: { sharing_knowledge: ImageType[] } | undefi
 }
 
 export function usePageData(page: string): { data: PageDataType | undefined, error: string | undefined } {
-  const url = `/data/pages/fr/${page}.json`;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const url = `${basePath}/data/pages/fr/${page}.json`;
   const { data, error } = useSWR(url, fetcher);
   return { data, error }
 }
