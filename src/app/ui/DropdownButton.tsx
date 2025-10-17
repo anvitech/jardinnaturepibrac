@@ -8,16 +8,17 @@ type DropdownButtonProps = {
   label: string;
   href: string;
   items: { name: string; href: { pathname: string }; onClick?: () => void }[];
+  isDesktop?: boolean;
 };
 
-export const DropdownButton: React.FC<DropdownButtonProps> = ({ label, href, items }) => {
+export const DropdownButton: React.FC<DropdownButtonProps> = ({ label, href, items, isDesktop = true }) => {
   const t = useTranslations("Menus");
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLLIElement>(null);
   return (
     <li
       ref={ref}
-      className="relative inline-block cursor-pointer"
+      className={`relative inline-block cursor-pointer`}
     >
       <Link
         key={label}
@@ -43,13 +44,13 @@ export const DropdownButton: React.FC<DropdownButtonProps> = ({ label, href, ite
       </Link>
       {open && (
         <div
-          className="absolute -top-4 -left-4"
+          className={`${isDesktop ? 'absolute -top-4 -left-4' : 'static'}`}
           role="menu"
           tabIndex={-1}
           onMouseLeave={() => setOpen(false)}
         >
-          <ul 
-            className="flex flex-col gap-1 mt-16 px-4 py-2 border border-gray-300 bg-gray-100"
+          <ul
+            className={`flex flex-col gap-1 ${isDesktop ? 'mt-16' : 'mt-2'} px-4 py-2 border border-gray-300 bg-gray-100`}
           >
             {items.map((item) => (
               <li key={item.name} className="whitespace-nowrap">
