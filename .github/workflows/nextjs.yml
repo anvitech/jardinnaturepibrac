@@ -26,14 +26,12 @@ concurrency:
 
 env:
   NEXT_PUBLIC_BASE_PATH: /jardinnaturepibrac
-  
+  NEXT_PUBLIC_HOST: https://anvitech.github.io
+
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    environment: Production
-    env: # Env variables needed during build
-      NEXT_PUBLIC_BASE_URL: /jardinnaturepibrac
     steps:
       - name: Checkout
         uses: actions/checkout@v4
