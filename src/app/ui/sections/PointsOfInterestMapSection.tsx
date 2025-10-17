@@ -11,7 +11,7 @@ export default function PointsOfInterestMapSection() {
       <h1 className="text-center text-green-700 text-3xl font-bold mb-6">{t("title")}</h1>
       <div className="flex flex-col items-center max-w-3xl mx-auto mb-6 text-lg text-gray-700">
         <Image
-          src="/images/biodiversity_path/map.jpg"
+          src="images/biodiversity_path/map.jpg"
           alt="Map of the Biodiversity Path with points of interest"
           width={600}
           height={400}

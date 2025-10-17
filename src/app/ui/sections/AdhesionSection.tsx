@@ -5,6 +5,7 @@ import ButtonImage from '../ButtonImage';
 
 export default function AdhesionSection() {
   const t = useTranslations('Adhesion');
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <section id="adhesion" className="py-8 px-4 w-full text-center">
@@ -20,7 +21,7 @@ export default function AdhesionSection() {
       /> */}
       <button className='w-2xs border-2 mb-4 bg-green-100'>
         <a
-          href={`/pdf/fr/bulletin_adhesion.pdf`}
+          href={`${basePath}/pdf/fr/bulletin_adhesion.pdf`}
           className='inline-block w-full text-[16px]/[48px]'
           target="_blank"
         >
@@ -32,14 +33,14 @@ export default function AdhesionSection() {
       <div className="text-center flex mb-4 gap-x-8 justify-center">
         <ButtonImage
           href="https://www.helloasso.com/associations/jardin-nature-pibrac/adhesions/adhesion-de-soutien-2025-2026"
-          src='/images/home/helloasso.jpg'
+          src={`${basePath}/images/home/helloasso.jpg`}
           alt='See HelloAsso'
           width={128}
           className="object-scale-down"
         />
         <ButtonImage
           href="https://www.helloasso.com/associations/jardin-nature-pibrac/adhesions/adhesion-de-soutien-2025-2026"
-          src='/images/home/qrcode_helloasso.png'
+          src={`${basePath}/images/home/qrcode_helloasso.png`}
           alt='See HelloAsso with QRCode'
           width={128}
         />

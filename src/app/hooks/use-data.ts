@@ -10,8 +10,8 @@ import { ImageType, PageDataType } from "@/interfaces/sections";
 const fetcher = (url: string) => fetch(url).then((r) => r.json())
 
 export function useImages(): { data: { sharing_knowledge: ImageType[] } | undefined, error: string | undefined } {
-  const url = `/data/images.json`;
-  console.log("URL:", url);
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const url = `${basePath}/data/images.json`;
   const { data, error } = useSWR(
     url,
     fetcher

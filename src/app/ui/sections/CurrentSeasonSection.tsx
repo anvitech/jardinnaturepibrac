@@ -16,7 +16,7 @@ export default function CurrentSeasonSection() {
     <section id="current_season" className="py-8 px-4 w-full text-center">
       <h1 className="text-center text-green-700 text-3xl font-bold mb-4">{t('current_season.title')}</h1>
       <Image
-        src={`/images/agenda/current_season.jpg`}
+        src={`images/agenda/current_season.jpg`}
         alt={'Current season'}
         className="m-auto"
         width={100}

@@ -12,7 +12,7 @@ export default function NextConferenceSection() {
       <h1 className="text-center text-green-700 text-3xl font-bold mb-4">{t('next_conference.title')}</h1>
       <ButtonImage
         href="https://jardinnaturepibrac.org/Service%20Civique.htm"
-        src='/images/agenda/next_conference.jpg'
+        src='images/agenda/next_conference.jpg'
         alt='Next conference'
         width={800}
       />
