@@ -1,0 +1,77 @@
+{
+  "LocaleLayout": {
+    "title": "Jardin Nature de Pibrac"
+  },
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "locale": "{locale, select, fr {Français} es {Spanish} en {English} other {Unknown}}"
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Venez nous rencontrer lors de l'une de nos conférences ou contactez nous par mail à l adresse",
+    "notification": "N'oubliez pas de nous mentioner vos nom, prénom, address email et téléphone pour nous permettre de vous contacter."
+  },
+  "Appointment": {
+    "title": "Prochain Rendez-vous"
+  },
+  "Activities": {
+    "title": "Partager les savoirs",
+    "description": "pour jardiner au nature, promouvoir l'agroécologie et préserver la biodiversité"
+  },
+  "Adhesion": {
+    "title": "Adhésion de Soutien à nos actions",
+    "subtitle": "Bulletin d'adhésion à nous retourner ou adhésion en ligne via HelloAsso",
+    "description": "L’association loi 1901 Jardin Nature Pibrac a été publiée au Journal Officiel en 2013. Elle est inscrite sous le numéro SIRET 797 528 148 00019 Catégorie 9220. L'adhésion ouvre droit à une réduction fiscale car l'assocation est reconnue d’intérêt général par rescrit fiscal en date du 21/02/2014 et donc remplit les conditions générales prévues aux articles 200 et 238 bis du code général des impôts. Vous pouvez déduire 66% de votre don dans la limite de 20% de votre revenu imposable.",
+    "note": "Adhésion en ligne en suivant le Lien ou le QRCode Helloasso ci-dessous",
+    "button_title": "Télécharger le bulletin"
+  },
+  "Menus": {
+    "association": "Association",
+    "association:sharing_knowledge": "Partage des savoirs",
+    "association:adhesion": "Adhésion",
+    "association:contact": "Contact",
+    "association:sponsors": "Sponsors",
+    "agenda": "Agenda",
+    "agenda:next_event": "Prochain événement",
+    "agenda:this_season": "Cette saison",
+    "agenda:previous_seasons": "Saisons précédentes",
+    "forum": "Forum",
+    "biodiversity_path": "Sentier de la biodiversité",
+    "biodiversity_path:introduction": "Introduction",
+    "biodiversity_path:visit": "Visite",
+    "biodiversity_path:map": "La carte"
+  },
+  "Agenda": {
+    "next_conference": {
+      "title": "Agenda Jardin Nature de Pibrac",
+      "description": "La présentation sera animée par Marie-Pia Marchant, doctorante en troisième année à l’Université de Toulouse, co-dirigée par Georges Zissis (Laboratoire LAPLACE - Physique de la lumière) et Dr. Luc Legal, Maître de conférences au CRBE (Centre de Recherche sur la Biodiversité et l'Environnement). Un sujet fascinant sur l'impact de la pollution lumineuse sur la biodiversité. Découvrez comment l’éclairage artificiel, en perturbant le cycle naturel du jour et de la nuit, modifie les comportements, les interactions et la reproduction des espèces vivantes. Ce sera également l'occasion d'explorer la diversité et la beauté des papillons de nuit, ces créatures souvent invisibles mais essentielles à nos écosystèmes, mais aussi de faire un un tour d’horizon plus large sur l'impact de cette pollution lumineuse sur différents groupes d'animaux et de plantes.",
+      "visio_link": "Rejoindre la conférence via ce lien"
+    },
+    "current_season": {
+      "title": "Cette saison",
+      "description":""
+    }
+  },
+  "BiodiversityPath": {
+    "introduction": {
+      "title": "Découvrez notre Sentier de la Biodiversité",
+      "description": {
+        "p1": "Le Chemin de la Biodiversité de Pibrac a été réalisé par l'Association Jardin Nature Pibrac  dans le cadre d’un appel à projet \"Sensibilisation à la biodiversité\" de Toulouse Métropole et encouragé par la municipalité de Pibrac.",
+        "p2": "Ce circuit est une boucle de 4 km dans une zone verte et bleue intermédiaire entre la ville, la forêt de Bouconne et les zones agricoles.",
+        "p3": "Partant du parking de la zone loisirs des Tambourettes, route de Mondonville à Pibrac le chemin traverse l'aire de loisirs pour rejoindre le Verger Conservatoire et le Jardin Pédagogique, il se poursuit sur le chemin des Ânes et revient par le Chemin de las Coumos.",
+        "p4": "Le circuit emprunte des chemins accessibles PMR.",
+        "p5": "Il est possible de réduire le parcours de moitié.",
+        "p6": "Afin de limiter son impact sur l’environnement, les 17 points d’intérêt sont marqués de simples bornes en bois qui permettent d’accéder à des informations audio et vidéo en plusieurs langues."
+      },
+      "button_title": "Explorer le sentier"
+    },
+    "visit": {
+      "title": "Découvrir la Biodiversité de proximité",
+      "description": "En suivant ce lien sur ce site"
+    },
+    "map": {
+      "title": "Carte et Points d'intérêt",
+      "description": "Un parcours de 1,5 km à travers divers milieux naturels pour observer et comprendre la biodiversité sous toutes ses formes."
+    }
+  }
+}

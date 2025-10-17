@@ -1,0 +1,76 @@
+{
+  "LocaleLayout": {
+    "title": "Jardin Nature de Pibrac"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {Français} es {Spanish} en {English} other {Unknown}}"
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Come and meet us at one of our conferences or contact us by email at the address",
+    "notification": "Don't forget to mention your name, first name, email address and phone number so that we can contact you."
+  },
+  "Appointment": {
+    "title": "Next Appointment"
+  },
+  "Activities": {
+    "title": "Sharing Knowledge",
+    "description": "for gardening naturally, promoting agroecology and preserving biodiversity"
+  },
+  "Adhesion": {
+    "title": "Support Membership for our actions",
+    "subtitle": "Membership form to return to us or online membership via HelloAsso",
+    "description": "The association under the law of 1901 Jardin Nature Pibrac was published in the Official Journal in 2013. It is registered under the SIRET number 797 528 148 00019 Category 9220. Membership entitles you to a tax reduction because the association is recognized as being of general interest by tax ruling dated 21/02/2014 and therefore meets the general conditions provided for in articles 200 and 238 bis of the General Tax Code. You can deduct 66% of your donation within the limit of 20% of your taxable income.",
+    "note": "Online membership by following the Link or the Helloasso QRCode below",
+    "button_title": "Download the bulletin"
+  },
+  "Menus": {
+    "association": "Association",
+    "association:sharing_knowledge": "Sharing knowledge",
+    "association:adhesion": "Adhesion",
+    "association:contact": "Contact",
+    "association:sponsors": "Sponsors",
+    "agenda": "Agenda",
+    "agenda:next_event": "Next event",
+    "agenda:this_season": "This season",
+    "agenda:previous_seasons": "Previous seasons",
+    "forum": "Forum",
+    "biodiversity_path": "Biodiversity path",
+    "biodiversity_path:introduction": "Introduction",
+    "biodiversity_path:visit": "Visit",
+    "biodiversity_path:map": "The map"
+  },
+  "Agenda": {
+    "next_conference": {
+      "title": "Jardin Nature de Pibrac Agenda",
+      "description": "The presentation will be led by Marie-Pia Marchant, a third-year doctoral student at the University of Toulouse, co-supervised by Georges Zissis (LAPLACE Laboratory - Physics of Light) and Dr. Luc Legal, Senior Lecturer at the CRBE (Center for Research on Biodiversity and Environment). A fascinating topic on the impact of light pollution on biodiversity. Discover how artificial lighting, by disrupting the natural cycle of day and night, modifies the behaviors, interactions, and reproduction of living species. It will also be an opportunity to explore the diversity and beauty of moths, these often invisible but essential creatures to our ecosystems, as well as to take a broader look at the impact of this light pollution on different groups of animals and plants.",
+      "visio_link": "Join the conference via this link"
+    },
+    "current_season": {
+      "title": "Current Season",
+      "description":""
+    }
+  },
+  "BiodiversityPath": {
+    "introduction": {
+      "title": "Discover our Biodiversity Path",
+      "description": {
+        "p1": "The Biodiversity Path at Jardin Nature de Pibrac is a unique journey through various ecosystems designed to educate and inspire visitors about the importance of biodiversity. Spanning over 2 kilometers, the path features a variety of habitats including wetlands, meadows, woodlands, and pollinator gardens.",
+        "p2": "As you walk along the path, you'll encounter informative signage that highlights the flora and fauna native to each habitat, as well as the ecological roles they play. Interactive stations provide hands-on learning experiences for visitors of all ages, making it an ideal destination for families, school groups, and nature enthusiasts.",
+        "p3": "The Biodiversity Path is not only a place for education but also a sanctuary for wildlife. Efforts have been made to create habitats that support local species, from planting native vegetation to installing birdhouses and insect hotels. Visitors are encouraged to observe and appreciate the diverse life forms that call this area home."
+      },
+      "button_title": "Explore the path"
+    },
+    "visit": {
+      "title": "Discover Local Biodiversity",
+      "description": "The Biodiversity Path is open to all visitors during the garden's opening hours. Guided tours are available upon request.",
+      "button_title": "Book a guided tour"
+    },
+    "map": {
+      "title": "Map and Points of Interest",
+      "description": "Download the map of the Biodiversity Path to help you navigate and discover the various points of interest along the way.",
+      "button_title": "Download the map"
+    }
+  }
+}

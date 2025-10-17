@@ -1,62 +1,34 @@
+'use client';
+
 import {useTranslations} from 'next-intl';
 import ButtonImage from '../ButtonImage';
+import { ImageType } from '@/interfaces/sections';
+import { useImages } from '@/app/hooks/use-data';
 
 export default function ActivitiesSection() {
   const t = useTranslations('Activities');
 
+  const {data: images, error: imgError} = useImages();
+  if (imgError) { return 'Failed to load images' }
+
   return (
-    <section id="sharing_knowledge" className="py-8 px-4">
+    <section id="sharing_knowledge" className="w-full py-8 px-4 flex flex-col">
       <h1 className="text-center text-green-700 text-3xl font-bold mb-4">{t('title')}</h1>
       <h3 className="text-center text-xl text-green-700 font-bold mb-4">{t('description')}</h3>
+
       <div id="activities_buttons" className="mb-4 flex-col gap-4">
         {/* Buttons or links to activities can be added here */}
-        <div className='flex-row justify-center gap-8 mb-4 md:flex h-[297px]'>
-          <ButtonImage 
-            href="https://jardinnaturepibrac.org/BiodiverStival.htm"
-            src='/images/home/biodiverstival.jpg'
-            alt='BiodiverStival event'
-          />
-          <ButtonImage 
-            href="https://jardinnaturepibrac.org/Agenda%20Jardin%20Nature%20Pibrac.htm#Ancre1"
-            src='/images/home/conference.jpg'
-            alt='Conference event'
-          />
-          <ButtonImage 
-            href="https://jardinnaturepibrac.org/Festi%20Jardin.htm"
-            src='/images/home/festi_jardin.jpg'
-            alt='Conference event'
-          />
-        </div>
-
-        <div className='flex-row justify-center gap-8 mb-4 md:flex h-[297px]'>
-          <ButtonImage 
-            href="https://jardinnaturepibrac.org/Jardin%20Pedagogique.htm"
-            src='/images/home/jardin_pedagogique.jpg'
-            alt='Jardin pédagogique activity'
-          />
-          <ButtonImage 
-            href="https://jardinnaturepibrac.org/Chemin.htm"
-            src='/images/home/chemin_de_la_biodiversite.jpg'
-            alt='Chemin de la biodiversité activity'
-          />
-          {/* <ButtonImage 
-            href="https://jardinnaturepibrac.org/Verger%20Conservatoire%20Pibrac.htm"
-            src='/images/home/verger_conservatoire.jpg'
-            alt='Jardin conservatoire activity'
-          /> */}
-        </div>
-
-        <div className='flex-row justify-center gap-8 mb-4 md:flex h-[297px]'>
-          <ButtonImage 
-            href="https://jardinnaturepibrac.org/Ilot%20Biodiversite.htm"
-            src='/images/home/ilot_biodiversite.jpg'
-            alt='Ilot biodiversité activity'
-          />
-          <ButtonImage 
-            href="https://jardinnaturepibrac.org/Ruche%20Pedagogique.htm"
-            src='/images/home/ruche_pedagogique.jpg'
-            alt='Ruche pédagogique activity'
-          />
+        <div className='flex flex-row flex-wrap justify-center gap-8 mb-4'>
+          {images?.sharing_knowledge.map((image: ImageType) => (
+            <ButtonImage
+              key={image.name}
+              href={image.href}
+              src={image.src}
+              alt={image.alt}
+              height={297}
+              width={210}
+            />
+          ))}
         </div>
       </div>
     </section>

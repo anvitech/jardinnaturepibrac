@@ -1,0 +1,34 @@
+{
+  "sharing_knowledge": [
+    {
+      "name": "sharing_knowledge_1",
+      "alt": "Conference event",
+      "src": "/images/home/activities/sharing_knowledge_1.jpg",
+      "href": "https://jardinnaturepibrac.org/Agenda%20Jardin%20Nature%20Pibrac.htm"
+    },
+    {
+      "name": "sharing_knowledge_2",
+      "alt": "BiodiverStival event",
+      "src": "/images/home/activities/sharing_knowledge_2.jpg",
+      "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
+    },
+    {
+      "name": "sharing_knowledge_3",
+      "alt": "Festi'Jardin event",
+      "src": "/images/home/activities/sharing_knowledge_3.jpg",
+      "href": "https://jardinnaturepibrac.org/Festi%20Jardin.htm#affiche"
+    },
+    {
+      "name": "sharing_knowledge_4",
+      "alt": "Jardin pédagogique event",
+      "src": "/images/home/activities/sharing_knowledge_4.jpg",
+      "href": "https://jardinnaturepibrac.org/Jardin%20Pedagogique.htm"
+    },
+    {
+      "name": "sharing_knowledge_5",
+      "alt": "Biodiversity pathway",
+      "src": "/images/home/activities/sharing_knowledge_5.jpg",
+      "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
+    }
+  ]
+}

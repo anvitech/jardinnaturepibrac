@@ -1,12 +1,21 @@
-import {notFound} from 'next/navigation';
-import {Locale, hasLocale, NextIntlClientProvider} from 'next-intl';
-import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {clsx} from 'clsx';
 import {Inter} from 'next/font/google';
+import React from 'react';
+
+import {notFound} from 'next/navigation';
+import {hasLocale, NextIntlClientProvider} from 'next-intl';
+import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
+
 import './styles.css';
+import PageLayout from '../ui/PageLayout';
+
 
 const inter = Inter({subsets: ['latin']});
+type Props = {
+  children: React.ReactNode;
+  params: Promise<{locale: string}>;
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
@@ -18,7 +27,7 @@ export async function generateMetadata(
   const {locale} = await props.params;
 
   const t = await getTranslations({
-    locale: locale as Locale,
+    locale: locale,
     namespace: 'LocaleLayout'
   });
 
@@ -30,7 +39,7 @@ export async function generateMetadata(
 export default async function LocaleLayout({
   children,
   params
-}: LayoutProps<'/[locale]'>) {
+}: Readonly<Props>) {
   // Ensure that the incoming `locale` is valid
   const {locale} = await params;
   if (!hasLocale(routing.locales, locale)) {
@@ -44,7 +53,7 @@ export default async function LocaleLayout({
     <html className="h-full" lang={locale}>
       <body className={clsx(inter.className, 'flex h-full flex-col')}>
         <NextIntlClientProvider>
-          {children}
+          <PageLayout>{children}</PageLayout>
         </NextIntlClientProvider>
       </body>
     </html>

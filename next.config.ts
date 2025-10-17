@@ -3,7 +3,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const isProduction = process.env.NODE_ENV === 'production'
 
-export const basePath = isProduction ? '/jardinnaturepibrac' : '';
+export const basePath = isProduction ? process.env.NEXT_PUBLIC_BASE_PATH : '';
 export const host = isProduction ? 'https://anvitech.github.io' : 'http://localhost:3000';
 
 const withNextIntl = createNextIntlPlugin();

@@ -14,11 +14,13 @@ export interface ConferenceAgendaProps {
   speaker: ConferenceSpeaker
 }
 
+export interface PageDataType {
+  sections: SectionsType
+}
+
 export interface SectionsType {
-  sections: {
-    current_season: {
-      cards: ConferenceAgendaProps[]
-    }
+  current_season: {
+    cards: ConferenceAgendaProps[]
   }
 }
 
@@ -26,4 +28,11 @@ export interface PageType {
   title: string;
   description: string;
   sections: {key: string, value: string}
+}
+
+export interface ImageType {
+  name: string;
+  href: string;
+  src: string;
+  alt: string;
 }

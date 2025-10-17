@@ -1,6 +1,7 @@
+'use client';
+
 import {useTranslations} from 'next-intl';
 import ButtonImage from '../ButtonImage';
-import {Link} from '@/i18n/navigation';
 
 export default function AdhesionSection() {
   const t = useTranslations('Adhesion');
@@ -11,32 +12,32 @@ export default function AdhesionSection() {
 
       <h3 className="mb-4">{t('subtitle')}</h3>
       <p className="mb-4 mx-32 justify-content text-wrap">{t('description')}</p>
-      {/* <ButtonImage 
+      {/* <ButtonImage
         href="#"
         src='/images/home/bulletin_adhesion_2025_2026.jpg'
         alt='See the adhesion form'
         width={700}
       /> */}
       <button className='w-2xs border-2 mb-4 bg-green-100'>
-        <Link 
-          href="#"
-          title={t('button_title')}
+        <a
+          href={`/pdf/fr/bulletin_adhesion.pdf`}
           className='inline-block w-full text-[16px]/[48px]'
+          target="_blank"
         >
           {t('button_title')}
-        </Link>
+        </a>
       </button>
 
       <p className="mb-2">{t('note')}</p>
       <div className="text-center flex mb-4 gap-x-8 justify-center">
-        <ButtonImage 
+        <ButtonImage
           href="https://www.helloasso.com/associations/jardin-nature-pibrac/adhesions/adhesion-de-soutien-2025-2026"
           src='/images/home/helloasso.jpg'
           alt='See HelloAsso'
           width={128}
           className="object-scale-down"
         />
-        <ButtonImage 
+        <ButtonImage
           href="https://www.helloasso.com/associations/jardin-nature-pibrac/adhesions/adhesion-de-soutien-2025-2026"
           src='/images/home/qrcode_helloasso.png'
           alt='See HelloAsso with QRCode'
