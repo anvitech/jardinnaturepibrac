@@ -24,7 +24,7 @@ export default function CurrentSeasonSection() {
         width={100}
         height={64}
       />
-      <div className='grid grid-cols-3 gap-4 justify-items-center my-8 px-32'>
+      <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center my-8 px-32'>
         {conferences.map((conference) => (
           <AgendaCard
             key={conference.title}
