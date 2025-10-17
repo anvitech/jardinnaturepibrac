@@ -11,6 +11,8 @@ export default function ActivitiesSection() {
   const {data: images, error: imgError} = useImages();
   if (imgError) { return 'Failed to load images' }
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
   return (
     <section id="sharing_knowledge" className="w-full py-8 px-4 flex flex-col">
       <h1 className="text-center text-green-700 text-3xl font-bold mb-4">{t('title')}</h1>
@@ -23,7 +25,7 @@ export default function ActivitiesSection() {
             <ButtonImage
               key={image.name}
               href={image.href}
-              src={image.src}
+              src={`${basePath}/${image.src}`}
               alt={image.alt}
               height={297}
               width={210}

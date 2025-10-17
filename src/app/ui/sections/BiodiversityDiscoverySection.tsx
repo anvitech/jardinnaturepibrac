@@ -5,6 +5,7 @@ import ButtonImage from "../ButtonImage";
 
 export default function BiodiversityDiscoverySection() {
   const t = useTranslations('BiodiversityPath.visit');
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <section id="biodiversity_path-visit" className="py-8 px-4 w-full text-center">
@@ -14,7 +15,7 @@ export default function BiodiversityDiscoverySection() {
           <caption>{t("description")}</caption>
           <ButtonImage
             href="https://jardinnaturepibrac.org/Chemin_Biodiversite.htm"
-            src="images/biodiversity_path/visit.jpg"
+            src={`${basePath}/images/biodiversity_path/visit.jpg`}
             alt="Jardin Pibrac logo"
             className="w-auto px-6 mb-4"
           />
@@ -23,13 +24,13 @@ export default function BiodiversityDiscoverySection() {
         <div className="flex flex-col items-center">
           <ButtonImage
             href="https://play.google.com/store/apps/details?id=com.pibrac.jardinnature.cheminsdelabiodiversite&gl=FR"
-            src="images/biodiversity_path/google_play_logo.jpg"
+            src={`${basePath}/images/biodiversity_path/google_play_logo.jpg`}
             alt="Google Play logo"
             className="w-auto px-6 mb-4"
           />
           <ButtonImage
             href="https://play.google.com/store/apps/details?id=com.pibrac.jardinnature.cheminsdelabiodiversite&gl=FR"
-            src="images/biodiversity_path/google_play_qrcode.png"
+            src={`${basePath}/images/biodiversity_path/google_play_qrcode.png`}
             alt="Google Play QR Code"
             className="w-auto px-6 mb-4"
           />
@@ -38,13 +39,13 @@ export default function BiodiversityDiscoverySection() {
         <div className="flex flex-col items-center">
           <ButtonImage
             href="https://apps.apple.com/tr/app/nature-pibrac/id6448917968"
-            src="images/biodiversity_path/apple_store_logo.png"
+            src={`${basePath}/images/biodiversity_path/apple_store_logo.png`}
             alt="Apple Store logo"
             className="w-auto px-6 mb-4"
           />
           <ButtonImage
             href="https://apps.apple.com/tr/app/nature-pibrac/id6448917968"
-            src="images/biodiversity_path/apple_store_qrcode.png"
+            src={`${basePath}/images/biodiversity_path/apple_store_qrcode.png`}
             alt="Apple Store QR Code"
             className="w-auto px-6 mb-4"
           />
