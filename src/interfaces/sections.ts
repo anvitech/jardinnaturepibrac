@@ -19,9 +19,25 @@ export interface PageDataType {
 }
 
 export interface SectionsType {
-  current_season: {
+  [key: string]: {
     cards: ConferenceAgendaProps[]
+  } | {
+    articles: ArticleType[]
   }
+}
+
+export interface ArticleType {
+  name: string;
+  title: string;
+  content: string;
+  thumbnail: ImageType;
+  audio: AudioType;
+  images: ImageType[];
+}
+
+interface AudioType {
+  src: string;
+  duration: number;
 }
 
 export interface PageType {
@@ -31,8 +47,8 @@ export interface PageType {
 }
 
 export interface ImageType {
-  name: string;
-  href: string;
+  name?: string;
+  href?: string;
   src: string;
   alt: string;
 }

@@ -1,5 +1,5 @@
 {
-  "sharing_knowledge": [
+  "activities": {"sharing_knowledge": [
     {
       "name": "sharing_knowledge_1",
       "alt": "Conference event",
@@ -30,5 +30,37 @@
       "src": "/images/home/activities/sharing_knowledge_5.jpg",
       "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
     }
-  ]
+  ]},
+  "biodiversity_path": {"discovery": [
+    {
+      "name": "biodiversity_path_discovery_1",
+      "alt": "Insect hotel",
+      "src": "/images/home/activities/biodiversity_path_discovery_1.jpg",
+      "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
+    },
+    {
+      "name": "biodiversity_path_discovery_2",
+      "alt": "Birdhouse",
+      "src": "/images/home/activities/biodiversity_path_discovery_2.jpg",
+      "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
+    },
+    {
+      "name": "biodiversity_path_discovery_3",
+      "alt": "Butterfly garden",
+      "src": "/images/home/activities/biodiversity_path_discovery_3.jpg",
+      "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
+    },
+    {
+      "name": "biodiversity_path_discovery_4",
+      "alt": "Pond area",
+      "src": "/images/home/activities/biodiversity_path_discovery_4.jpg",
+      "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
+    },
+    {
+      "name": "biodiversity_path_discovery_5",
+      "alt": "Wildflower meadow",
+      "src": "/images/home/activities/biodiversity_path_discovery_5.jpg",
+      "href": "https://jardinnaturepibrac.org/BiodiverStival.htm"
+    }
+  ]}
 }

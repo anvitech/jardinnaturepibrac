@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "discovery": {
+      "articles": [
+        {
+          "name": "wetland",
+          "title": "The Wetland",
+          "content": {
+            "p1": "Classically defined as ‘land covered with shallow water or saturated with water either permanently or temporarily,’ wetlands cover a very wide range of habitats that are closely linked to water: marshes, swamps, bogs, riverbank woodlands, estuaries, ponds and lakes, and damp woodlands. They are often small in size, protected and fragile. They are some of the most biodiverse habitats on the planet. They are characterized by their own specific flora. They perform particular functions and have many beneficial uses, including flood limitation – by slowing the flow of the water, expanding the flood zones and reducing the effects of drought – because these waterlogged terrains are closely linked to the nearby rivers, and will replenish them when the levels are low, which allows the supply of drinking water to be maintained.",
+            "p2": "These wetlands are reservoirs of biodiversity as they provide homes for a great many water-loving species of plants and animals, such as amphibians.",
+            "p3": "Wetlands are often simply ditches or streams that are fed by waste-water or urban and agricultural run-off.",
+            "p4": "They capture the fine soil particles in the waste-water and they transform the nutrients, such as nitrates and phosphates, into carbon storage.",
+            "p5": "Wetlands serve as climatic buffer zones, and in urban areas, they significantly reduce the ambient temperature.",
+            "p6": "Wetlands, with their often exuberant vegetation, contribute to the diversity of the landscapes, as well as being a place to walk and discover nature."
+          },
+          "audio": {
+            "src": "/audio/biodiversity.mp3",
+            "duration": 120
+          },
+          "thumbnail": {
+            "src": "/images/biodiversity_path/discovery/thumbnails/01_LB.jpg",
+            "alt": "Wetland area of the garden"
+          },
+          "images": [
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_1.jpg",
+              "alt": "Cardamine des marais"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_2.jpg",
+              "alt": "Crapaud commun"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_3.jpg",
+              "alt": "Epilobe à petites fleurs"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_4.jpg",
+              "alt": "Iris faux acore"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_5.jpg",
+              "alt": "Massette commune"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_6.jpg",
+              "alt": "Salamandre"
+            }
+          ]
+        },
+        {
+          "name": "orchard",
+          "title": "The Orchard",
+          "content": {
+            "p1": "In April 2017, the Mairie of Pibrac signed an agreement with the benevolent society Jardin Nature Pibrac (JNP), giving them the use of an area of about 4,000 m2 in the Tambourettes quarter, to create an orchard for education and the conservation of fruit trees, by planting ancient local varieties.",
+            "p2": "The first nine trees were planted in the spring of 2017, and forty-two were planted in the autumn of that year, then six more in spring 2018.",
+            "p3": "Each tree is labelled, to teach identification, and to give the visitor details about the variety and its history.",
+            "p4": "There are already six information panels about local biodiversity, an educational beehive, an insect hotel and a biodiversity spiral-island.",
+            "p5": "This conservation orchard, which serves as a symbol and a demonstration of vegetation diversity, s well as an educational tool, and a way of preserving local heritage, also allows locals and visitors to discover, observe, recognize and compare different species, varieties and cultivars of fruit trees.",
+            "p6": "The apple ‘Reinette de Sainte Germaine’ has its place, of course, and advertises the local heritage.",
+            "p7": "The site is regularly visited by schoolchildren and amateur gardeners. Along with the Educational Garden, it allows for variety of activities linked to the environment and citizenship. It is also an ideally convivial location."
+          },
+          "audio": {
+            "src": "/audio/biodiversity.mp3",
+            "duration": 120
+          },
+          "thumbnail": {
+            "src": "/images/biodiversity_path/discovery/thumbnails/panneaux 15x13_verger.jpg",
+            "alt": "The Orchard"
+          },
+          "images": [
+            {
+              "src": "/images/biodiversity_path/discovery/RPh_B2_1.jpg",
+              "alt": "Cardamine des marais"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_2.jpg",
+              "alt": "Crapaud commun"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_3.jpg",
+              "alt": "Epilobe à petites fleurs"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_4.jpg",
+              "alt": "Iris faux acore"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_5.jpg",
+              "alt": "Massette commune"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_6.jpg",
+              "alt": "Salamandre"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

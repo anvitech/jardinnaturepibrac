@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "discovery": {
+      "articles": [
+        {
+          "name": "wetland",
+          "title": "The Wetland",
+          "content": {
+            "p1": "Los humedales se definen como \"tierras cubiertas de aguas poco profundas o impregnadas de agua permanente o temporalmente\". Bajo la denominación de humedales se agrupa una amplia variedad de ambientes íntimamente vinculados al agua: marismas, turberas, bosques ribereños, estuarios, estanques o bosques húmedos. A menudo se trata de entornos pequeños, protegidos y frágiles. Son uno de los hábitats más ricos en biodiversidad del planeta. Se caracterizan por una flora específica y hacen funciones particulares que proporcionan muchos beneficios. Por ejemplo, limitan las inundaciones al conservar el agua de lluvia, que llega así más lentamente a los ríos; limitan también la expansión de las zonas de crecida y mitigan de la sequía. Estas tierras repletas de agua y en conexión directa con el río cercano alimentarán su cauce cuando esté en su nivel más bajo.",
+            "p2": "Estos humedales son reservorios de biodiversidad porque están habitados por un número considerable de plantas higrófilas y de especies animales como los anfibios.",
+            "p3": "Los humedales son muy a menudo zanjas o arroyos alimentados por el drenaje de agua de áreas urbanas o agrícolas cercanas.",
+            "p4": "Estas aguas por un lado conservan partículas finas y por otro convierten los nutrientes de estos afluentes, como nitratos y fosfatos, en biomasa, y contribuyen así al almacenamiento de carbono.",
+            "p5": "Los humedales son amortiguadores climáticos. Cuando están repartidos en áreas urbanas reducen significativamente las temperaturas de estos lugares.",
+            "p6": "Estas zonas, con su vegetación a menudo exuberante, aumentan la riqueza de paisajes y son lugares de descubrimiento y paseo."
+          },
+          "audio": {
+            "src": "/audio/biodiversity.mp3",
+            "duration": 120
+          },
+          "thumbnail": {
+            "src": "/images/biodiversity_path/discovery/thumbnails/01_LB.jpg",
+            "alt": "Wetland area of the garden"
+          },
+          "images": [
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_1.jpg",
+              "alt": "Marsh cress"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_2.jpg",
+              "alt": "Common toad"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_3.jpg",
+              "alt": "Small-flowered willowherb"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_4.jpg",
+              "alt": "Yellow iris"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_5.jpg",
+              "alt": "Common bulrush"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_6.jpg",
+              "alt": "Salamander"
+            }
+          ]
+        }, {
+          "name": "orchard",
+          "title": "The Orchard",
+          "content": {
+            "p1": "En abril de 2017, un convenio firmado con el Ayuntamiento de Pibrac, permitió a la asociación Jardin Nature Pibrac (JNP) disponer del uso de un terreno de aproximadamente 4000m2, situado en la zona de Tambourettes, para crear un huerto pedagógico dedicado a la conservación de especies vegetales y a la plantación de frutales de variedades locales antiguas.",
+            "p2": "Los primeros nueve árboles se plantaron en la primavera de 2017, otros 42 en otoño de ese mismo año y seis más durante la primavera del año siguiente.",
+            "p3": "Hay un panel informativo junto a cada árbol que, de manera pedagógica, proporciona datos como su nombre y origen, variedad e información histórica.",
+            "p4": "Se han instalado además otros seis carteles sobre la biodiversidad local, una colmena pedagógica, un hotel de insectos y una espiral de aromáticas de diversidad biológica.",
+            "p5": "Este huerto de conservación de especies, símbolo y ejemplo de nuestra variedad biológica autóctona, es una herramienta educativa fundamental y un modelo de preservación del patrimonio local que pretende permitir tanto a los pibraqueños como a los visitantes descubrir, observar, reconocer y comparar las diferentes variedades de cultivos de frutales.",
+            "p6": "Por supuesto no podía faltar un lugar destacado para la Reineta de Santa Germana, testigo de la herencia municipal. Éste huerto lo visitan regularmente tanto escolares como jardineros aficionados y es el complemento perfecto al Jardín Pedagógico, lo que permite realizar innumerables actividades sobre el entorno y la ciudadanía. Es un lugar idóneo para la convivencia, el diálogo y el intercambio."
+          },
+          "audio": {
+            "src": "/audio/biodiversity.mp3",
+            "duration": 120
+          },
+          "thumbnail": {
+            "src": "/images/biodiversity_path/discovery/thumbnails/panneaux 15x13_verger.jpg",
+            "alt": "The Orchard"
+          },
+          "images": [
+            {
+              "src": "/images/biodiversity_path/discovery/RPh_B2_1.jpg",
+              "alt": "Marsh cress"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_2.jpg",
+              "alt": "Common toad"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_3.jpg",
+              "alt": "Small-flowered willowherb"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_4.jpg",
+              "alt": "Yellow iris"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_5.jpg",
+              "alt": "Common bulrush"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_6.jpg",
+              "alt": "Salamander"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
