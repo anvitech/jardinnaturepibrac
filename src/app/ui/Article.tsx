@@ -5,6 +5,7 @@ import { ArticleType, ImageType } from "@/interfaces/sections";
 
 const Article = ({article}:{article: ArticleType}) => {
   const content = article.content;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     <div className="mb-6 border-t border-gray-200 pt-6">
       <h2 id={article.name} className="text-2xl text-center mb-2">{article.title}</h2>
@@ -29,7 +30,7 @@ const Article = ({article}:{article: ArticleType}) => {
           {article.images?.map((image: ImageType) => (
             <Image
               key={image.alt}
-              src={image.src}
+              src={`${basePath}${image.src}`}
               alt={image.alt}
               width={210}
               height={210}
