@@ -10,7 +10,7 @@ const Article = ({article}:{article: ArticleType}) => {
       <h2 id={article.name} className="text-2xl text-center mb-2">{article.title}</h2>
       <div className="flex flex-row items-start gap-6 justify-center">
         <div className="text-justify max-w-xl">
-          {/* <audio controls className="w-full mb-4">
+          <audio controls className="w-full mb-4">
             <source src={article.audio?.src} type="audio/mpeg" />
             <track
               kind="captions"
@@ -20,7 +20,7 @@ const Article = ({article}:{article: ArticleType}) => {
               default={!!article.audio?.captions?.src}
             />
             Your browser does not support the audio element.
-          </audio> */}
+          </audio>
           {content && Object.entries(content).map(([key, value]) => (
             <p key={key}>{value}</p>
           ))}

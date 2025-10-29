@@ -38,6 +38,11 @@ export interface ArticleType {
 interface AudioType {
   src: string;
   duration: number;
+  captions?: {
+    src: string;
+    lang: string;
+    label: string;
+  };
 }
 
 export interface PageType {
