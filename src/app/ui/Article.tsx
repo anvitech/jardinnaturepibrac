@@ -12,10 +12,10 @@ const Article = ({article}:{article: ArticleType}) => {
       <div className="flex flex-row items-start gap-6 justify-center">
         <div className="text-justify max-w-xl">
           <audio controls className="w-full mb-4">
-            <source src={article.audio?.src} type="audio/mpeg" />
+            <source src={`${basePath}${article.audio?.src}`} type="audio/mpeg" />
             <track
               kind="captions"
-              src={article.audio?.captions?.src ?? ''}
+              src={`${basePath}${article.audio?.captions?.src ?? ''}`}
               srcLang={article.audio?.captions?.lang ?? 'en'}
               label={article.audio?.captions?.label ?? 'captions'}
               default={!!article.audio?.captions?.src}
