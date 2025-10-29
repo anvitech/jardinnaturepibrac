@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "discovery": {
+      "articles": [
+        {
+          "name": "wetland",
+          "title": "La Zone Humide",
+          "content": {
+            "p1": "Classiquement définies comme des « terres recouvertes d’eau peu profonde ou bien imprégnées d’eau de façon permanente ou temporaire », les zones humides correspondent à une très grande diversité de milieux intimement liés à l’eau : marais, tourbières, ripisylves, estuaires, étangs ou encore forêts humides. Ce sont souvent des milieux de taille restreinte, protégés et fragiles. Elles font partie des habitats les plus riches en biodiversité de la planète. Elles sont caractérisées par une flore spécifique, et assurent des fonctionnalités particulières et rendent de nombreux bienfaits parmi lesquels la limitation des inondations par le ralentissement du ruissellement, l’expansion des zones de crues et l’atténuation de la sécheresse : car ces terrains gorgés d’eau et en liaison directe avec la rivière voisine vont la réalimenter lorsque celle-ci sera à son plus bas niveau; ce qui va permettre de soutenir l’alimentation en eau potable. Ces zones sont des réservoirs de biodiversité car habitées par un nombre considérable d’espèces végétales hygrophiles, et d’espèces animales comme les amphibiens par exemple.",
+            "p2": "Les zones humides sont très souvent des fossés ou des ruisseaux alimentés par des eaux de lessivage ou de drainage des zones urbaines ou agricoles voisines.",
+            "p3": "Elles vont d’une part retenir les particules fines et d’autre part transformer les éléments nutritifs de ces effluents, comme les nitrates et les phosphates, en biomasse et participent ainsi au stockage du carbone. Les zones humides sont des tampons climatiques, réparties dans des milieux urbains, elles abaissent significativement les températures de ces lieux.",
+            "p4": "Ces zones avec leur végétation très souvent exubérante participent à la richesse paysagère et sont des lieux de découverte et de promenade."
+          },
+          "audio": {
+            "src": "/audio/biodiversity_path/discovery/L_Fr_17.mp3",
+            "duration": 120
+          },
+          "thumbnail": {
+            "src": "/images/biodiversity_path/discovery/thumbnails/01_LB.jpg",
+            "alt": "Zone humide du jardin"
+          },
+          "images": [
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_1.jpg",
+              "alt": "Cardamine des marais"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_2.jpg",
+              "alt": "Crapaud commun"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_3.jpg",
+              "alt": "Epilobe à petites fleurs"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_4.jpg",
+              "alt": "Iris faux acore"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_5.jpg",
+              "alt": "Massette commune"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B1_6.jpg",
+              "alt": "Salamandre"
+            }
+          ]
+        },
+        {
+          "name": "orchard",
+          "title": "Le Verger",
+          "content": {
+            "p1": "En avril 2017, une convention avec la Mairie de Pibrac, permet à l’association Jardin Nature Pibrac (JNP) de disposer d’un terrain de près de 4000m2 dans la zone des Tambourettes pour y créer un verger conservatoire et pédagogique et y planter des arbres fruitiers de variétés anciennes locales.",
+            "p2": "Les 9 premiers arbres ont été plantés au printemps 2017, 42 ont été plantés à l’automne 2017 puis 6 de plus au printemps 2018.",
+            "p3": "Chaque arbre est accompagné d’un panneau permettant une identification pédagogique et donnant au visiteur des détails sur la variété et son historique.",
+            "p4": "Six panneaux d’information sur la Biodiversité locale, une ruche pédagogique, un Hôtel à Insectes et une spirale-îlot de biodiversité ont été installés.",
+            "p5": "Tout à la fois symbole et démonstration de la biodiversité végétale, outil d'éducation et préservation d'un patrimoine locale, ce verger conservatoire permet aux Pibracais et aux visiteurs de découvrir, d’observer, de reconnaître et de comparer les différentes espèces, variétés et cultivars d’arbres fruitiers.",
+            "p6": "La reinette de Sainte Germaine a bien sûr sa place et témoigne ainsi du patrimoine local. Ce lieu est régulièrement visité par les enfants des écoles et les jardiniers amateurs; il vient en complément du Jardin Pédagogique permettant, ainsi, la mise en place de nombreuses activités autour de l’environnement et de la citoyenneté; c’est aussi un endroit idéal de convivialité et de partage."
+          },
+          "audio": {
+            "src": "/audio/biodiversity_path/discovery/L_Fr_17.mp3",
+            "duration": 120
+          },
+          "thumbnail": {
+            "src": "/images/biodiversity_path/discovery/thumbnails/panneaux 15x13_verger.jpg",
+            "alt": "Le Verger"
+          },
+          "images": [
+            {
+              "src": "/images/biodiversity_path/discovery/RPh_B2_1.jpg",
+              "alt": "Cardamine des marais"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_2.jpg",
+              "alt": "Crapaud commun"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_3.jpg",
+              "alt": "Epilobe à petites fleurs"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_4.jpg",
+              "alt": "Iris faux acore"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_5.jpg",
+              "alt": "Massette commune"
+            },
+            {
+              "src": "/images/biodiversity_path/discovery/Ph_B2_6.jpg",
+              "alt": "Salamandre"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

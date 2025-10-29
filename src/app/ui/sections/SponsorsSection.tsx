@@ -1,3 +1,5 @@
+'use client';
+
 import ButtonImage from '../ButtonImage';
 
 export default function SponsorsSection() {

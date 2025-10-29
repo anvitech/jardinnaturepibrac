@@ -8,7 +8,10 @@ import { useImages } from '@/app/hooks/use-data';
 export default function ActivitiesSection() {
   const t = useTranslations('Activities');
 
-  const {data: images, error: imgError} = useImages();
+  const {images, error: imgError} = useImages({
+    page: 'activities',
+    section: 'sharing_knowledge'
+  });
   if (imgError) { return 'Failed to load images' }
 
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -21,10 +24,10 @@ export default function ActivitiesSection() {
       <div id="activities_buttons" className="mb-4 flex-col gap-4">
         {/* Buttons or links to activities can be added here */}
         <div className='flex flex-row flex-wrap justify-center gap-8 mb-4'>
-          {images?.sharing_knowledge.map((image: ImageType) => (
+          {images?.map((image: ImageType) => (
             <ButtonImage
               key={image.name}
-              href={image.href}
+              href={image.href as string}
               src={`${basePath}${image.src}`}
               alt={image.alt}
               height={297}

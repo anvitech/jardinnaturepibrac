@@ -2,6 +2,8 @@
 
 import { useTranslations } from "next-intl";
 import ButtonImage from "../ButtonImage";
+import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 
 export default function BiodiversityDiscoverySection() {
   const t = useTranslations('BiodiversityPath.visit');
@@ -12,13 +14,18 @@ export default function BiodiversityDiscoverySection() {
       <h1 className="text-center text-green-700 text-3xl font-bold mb-6">{t("title")}</h1>
       <div className="flex flex-row justify-center items-end max-w-3xl mx-auto mb-6 text-lg text-gray-700">
         <div className="flex flex-col items-center">
-          <caption>{t("description")}</caption>
-          <ButtonImage
-            href="https://jardinnaturepibrac.org/Chemin_Biodiversite.htm"
-            src={`${basePath}/images/biodiversity_path/visit.jpg`}
-            alt="Jardin Pibrac logo"
-            className="w-auto px-6 mb-4"
-          />
+          <p>{t("description")}</p>
+          <Link
+            href="/biodiversity_path/discovery"
+            className="text-green-800 hover:underline mt-2"
+          >
+            <Image
+              src={`${basePath}/images/biodiversity_path/visit.jpg`}
+              alt="Visit the Biodiversity Path"
+              width={300} height={200}
+              className="w-auto px-6 mb-4"
+            />
+          </Link>
         </div>
 
         <div className="flex flex-col items-center">

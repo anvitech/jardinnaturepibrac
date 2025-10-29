@@ -4,25 +4,31 @@
 'use client';
 
 import useSWR from 'swr'
-
 import { ImageType, PageDataType } from "@/interfaces/sections";
 
 const fetcher = (url: string) => fetch(url).then((r) => r.json())
 
-export function useImages(): { data: { sharing_knowledge: ImageType[] } | undefined, error: string | undefined } {
+export function useImages({
+  page,
+  section
+}: {
+  page: string,
+  section: string
+}): { images: ImageType[], error: string | undefined } {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const url = `${basePath}/data/images.json`;
   const { data, error } = useSWR(
     url,
     fetcher
   )
+  const images = data?.[page]?.[section] ?? [];
 
-  return { data, error };
+  return { images, error };
 }
 
-export function usePageData(page: string): { data: PageDataType | undefined, error: string | undefined } {
+export function usePageData(page: string, locale: string = 'fr'): { data: PageDataType | undefined, error: string | undefined } {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-  const url = `${basePath}/data/pages/fr/${page}.json`;
+  const url = `${basePath}/data/pages/${locale}/${page}.json`;
   const { data, error } = useSWR(url, fetcher);
   return { data, error }
 }

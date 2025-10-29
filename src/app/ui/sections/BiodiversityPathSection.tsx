@@ -21,7 +21,7 @@ export default function BiodversityPathSection() {
         />
         <div className="grow">
           {keys.map((key) => (
-            <p key={key} className="mb-4">{t(`description.${key}`)}</p>
+            <p key={key} className="text-justify mb-4">{t(`description.${key}`)}</p>
           ))}
         </div>
       </div>

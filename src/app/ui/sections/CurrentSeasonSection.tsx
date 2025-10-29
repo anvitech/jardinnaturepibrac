@@ -1,6 +1,6 @@
 'use client';
 
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import AgendaCard from '../AgendaCard';
 import Image from 'next/image';
 import { usePageData } from '@/app/hooks/use-data';
@@ -8,9 +8,11 @@ import { SectionsType, ConferenceAgendaProps } from '@/interfaces/sections';
 
 export default function CurrentSeasonSection() {
   const t = useTranslations('Agenda');
-  const { data } = usePageData('agenda');
+  const locale = useLocale();
+  const { data } = usePageData('agenda', locale);
   const sections: SectionsType = data?.sections ?? { current_season: { cards: [] } };
-  const conferences: ConferenceAgendaProps[] = sections.current_season.cards;
+  const currentSeason = sections.current_season as { cards: ConferenceAgendaProps[] };
+  const conferences = currentSeason.cards;
 
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
