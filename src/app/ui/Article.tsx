@@ -9,8 +9,8 @@ const Article = ({article}:{article: ArticleType}) => {
   return (
     <div className="mb-6 border-t border-gray-200 pt-6">
       <h2 id={article.name} className="text-2xl text-center mb-2">{article.title}</h2>
-      <div className="flex flex-row items-start gap-6 justify-center">
-        <div className="text-justify max-w-xl">
+      <div className="flex flex-col xl:flex-row items-start gap-6 justify-center">
+        <div className="text-justify xl:max-w-xl">
           <audio controls className="w-full mb-4">
             <source src={`${basePath}${article.audio?.src}`} type="audio/mpeg" />
             <track
@@ -26,7 +26,7 @@ const Article = ({article}:{article: ArticleType}) => {
             <p key={key}>{value}</p>
           ))}
         </div>
-        <div className="flex flex-row gap-4 flex-wrap justify-end">
+        <div className="flex flex-row gap-4 flex-wrap justify-center xl:justify-end">
           {article.images?.map((image: ImageType) => (
             <Image
               key={image.alt}

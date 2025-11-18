@@ -12,14 +12,14 @@ export default function AdhesionSection() {
       <h1 className="text-center text-green-700 text-3xl font-bold mb-4">{t('title')}</h1>
 
       <h3 className="mb-4">{t('subtitle')}</h3>
-      <p className="mb-4 mx-32 justify-content text-wrap">{t('description')}</p>
+      <p className="mb-4 mx-4 lg:mx-32 xl:mx-64 text-justify text-wrap">{t('description')}</p>
       {/* <ButtonImage
         href="#"
         src='/images/home/bulletin_adhesion_2025_2026.jpg'
         alt='See the adhesion form'
         width={700}
       /> */}
-      <button className='w-2xs border-2 mb-4 bg-green-100'>
+      <button className='w-2xs border-2 mb-16 bg-green-100'>
         <a
           href={`${basePath}/pdf/fr/bulletin_adhesion.pdf`}
           className='inline-block w-full text-[16px]/[48px]'

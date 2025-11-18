@@ -1,19 +1,19 @@
 'use client';
 
-import {useTranslations} from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import ButtonImage from '../ButtonImage';
 import { ImageType } from '@/interfaces/sections';
-import { useImages } from '@/app/hooks/use-data';
+import { usePageData } from '@/app/hooks/use-data';
 
 export default function ActivitiesSection() {
   const t = useTranslations('Activities');
 
-  const {images, error: imgError} = useImages({
-    page: 'activities',
-    section: 'sharing_knowledge'
-  });
-  if (imgError) { return 'Failed to load images' }
+  // Get page data
+  const locale = useLocale();
+  const { data, error } = usePageData('home', locale);
+  if (error) { return <p className="text-center">Failed to load images</p> }
 
+  const images = (data?.sections?.activities as { images: ImageType[] })?.images ?? [];
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
@@ -27,7 +27,7 @@ export default function ActivitiesSection() {
           {images?.map((image: ImageType) => (
             <ButtonImage
               key={image.name}
-              href={image.href as string}
+              href={`${basePath}${image.href}`}
               src={`${basePath}${image.src}`}
               alt={image.alt}
               height={297}

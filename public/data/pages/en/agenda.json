@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "current_season": {
+      "cards": [
+        {
+          "category": "conference",
+          "location": "Visio + Room Polyvalente 31820 Pibrac",
+          "date": "Friday 26 September 2025 20h30",
+          "type": "Conference followed by a debate",
+          "title": "Light Pollution and Nocturnal Wildlife",
+          "speaker": {
+            "name": "Animated by Dr. Marie-Pia Marchant",
+            "title": "Phd. Master of conferences, HDR",
+            "from": "Laboratory of plasma and energy conversion Laplace /CRBE University Paul Sabatier Toulouse III and Luc LEGAL",
+            "note": ""
+          }
+        },
+        {
+          "category": "conference",
+          "location": "Visio + Room Polyvalente 31820 Pibrac",
+          "date": "Friday 17 October 2025 20h30",
+          "type": "Conference followed by a debate",
+          "title": "The End of Pesticides: Sweet Dreams or Realistic Objective?",
+          "speaker": {
+            "name": "Animated by Jean-Noel Aubertot",
+            "title": "Research Director",
+            "from": "VASCO team of the AGIR INRAE Castanet Tolosan unit",
+            "note": ""
+          }
+        },
+        {
+          "category": "conference",
+          "location": "Esplanade Sainte Germaine 31820 Pibrac",
+          "date": "Sunday 9 November 2025 9am-6pm",
+          "type": "Conference followed by a debate",
+          "title": "Festi'Jardin Nature and Plants 11th edition",
+          "speaker": {
+            "name": "75+ exhibitors",
+            "title": "Nurserymen, Horticulturists, Artisans",
+            "from": "Biodiversity defense associations Children's activities",
+            "note": "Free entry"
+          }
+        },
+        {
+          "category": "conference",
+          "location": "Visio + Room Polyvalente 31820 Pibrac",
+          "date": "Friday 16 January 2026 20h30",
+          "type": "Conference followed by a debate",
+          "title": "History of Pastoralism in the Pyrenees",
+          "speaker": {
+            "name": "Animated by Christine Rendu",
+            "title": "Research Director at CNRS (DR2)",
+            "from": "TERRAE Laboratory Archaeology and history of southern medieval societies, University of Toulouse Jean Jaurès",
+            "note": ""
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "current_season": {
+      "cards": [
+        {
+          "category": "conference",
+          "location": "Visio + Salle Polyvalente 31820 Pibrac",
+          "date": "Viernes 26 Septiembre 2025 20h30",
+          "type": "Conferencia seguida de un debate",
+          "title": "Contaminación lumínica y fauna nocturna",
+          "speaker": {
+            "name": "Animada por la Dra. Marie-Pia Marchant",
+            "title": "DoctorandaMaître de conférences, HDR",
+            "from": "Laboratorio plasma y conversión de energía Laplace /CRBE Université Paul Sabatier Toulouse III et Luc LEGAL",
+            "note": ""
+          }
+        },
+        {
+          "category": "conference",
+          "location": "Visio + Salle Polyvalente 31820 Pibrac",
+          "date": "Viernes 17 Octubre 2025 20h30",
+          "type": "Conferencia seguida de un debate",
+          "title": "Fin de los pesticidas: sueño dulce u objetivo realista?",
+          "speaker": {
+            "name": "Animada por Jean-Noël Aubertot",
+            "title": "Director de investigación",
+            "from": "Equipo VASCO de la unidad AGIR INRAE Castanet Tolosan",
+            "note": ""
+          }
+        },
+        {
+          "category": "conference",
+          "location": "Esplanade Sainte Germaine 31820 Pibrac",
+          "date": "Domingo 9 Noviembre 2025 9h-18h",
+          "type": "Conferencia seguida de un debate",
+          "title": "Festi'Jardin Nature et Plantes 11ª edición",
+          "speaker": {
+            "name": "75+ expositores",
+            "title": "Viveristas, Horticultores, Artesanos",
+            "from": "Asociaciones de defensa de la Biodiversidad Animaciones para niños",
+            "note": "Entrada gratuita"
+          }
+        },
+        {
+          "category": "conference",
+          "location": "Visio + Salle Polyvalente 31820 Pibrac",
+          "date": "Viernes 16 Enero 2026 20h30",
+          "type": "Conferencia seguida de un debate",
+          "title": "Historia del Pastoralismo en los Pirineos",
+          "speaker": {
+            "name": "Animada por Christine Rendu",
+            "title": "Directora de investigación en el CNRS (DR2)",
+            "from": "Laboratorio TERRAE Arqueología e historia de las sociedades medievales meridionales, Universidad Toulouse Jean Jaurès",
+            "note": ""
+          }
+        }
+      ]
+    }
+  }
+}
