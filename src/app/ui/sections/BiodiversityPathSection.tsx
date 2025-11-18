@@ -11,7 +11,7 @@ export default function BiodversityPathSection() {
   return (
     <section id="biodiversity_path-introduction" className="py-8 px-4 w-full text-center">
       <h1 className="text-center text-green-700 text-3xl font-bold mb-6">{t("title")}</h1>
-      <div className="flex flex-row justify-center items-center w-full mx-auto mb-6 text-gray-700">
+      <div className="flex flex-col md:flex-row gap-4 justify-center items-center w-full mx-auto mb-6 text-gray-700">
         <Image
           src={`${basePath}/images/biodiversity_path/path.jpg`}
           alt="Biodiversity Path Illustration"

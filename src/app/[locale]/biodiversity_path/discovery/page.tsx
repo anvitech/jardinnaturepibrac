@@ -6,6 +6,7 @@ import { ArticleType } from '@/interfaces/sections';
 
 import { useLocale } from 'next-intl';
 import { usePageData } from '@/app/hooks/use-data';
+import SectionLayout from '@/app/ui/sections/SectionLayout';
 
 
 export default function DiscoveryPage() {
@@ -27,9 +28,9 @@ export default function DiscoveryPage() {
   const articles = sectionData?.articles;
 
   return (
-    <div id="biodiversity_path-discovery-page" className='max-w-3xl md:max-w-6xl'>
+    <SectionLayout>
       <ImageSection images={thumbnails} />
       <Articles articles={articles} />
-    </div>
+    </SectionLayout>
   );
 }

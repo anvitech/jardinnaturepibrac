@@ -1,13 +1,14 @@
 import BiodversityPathSection from '@/app/ui/sections/BiodiversityPathSection';
 import BiodiversityDiscoverySection from '@/app/ui/sections/BiodiversityDiscoverySection';
 import PointsOfInterestMapSection from '@/app/ui/sections/PointsOfInterestMapSection';
+import SectionLayout from '@/app/ui/sections/SectionLayout';
 
 export default function BiodiversityPathPage() {
   return (
-    <div id="biodiversity_path-page">
+    <SectionLayout>
       <BiodversityPathSection />
       <BiodiversityDiscoverySection />
       <PointsOfInterestMapSection />
-    </div>
+    </SectionLayout>
   )
 }

@@ -10,7 +10,7 @@ export default function PageLayout({children}: Props) {
   return (
     <div className="container max-w-full flex flex-col">
       <Header />
-      <main className="flex flex-col items-center justify-center">
+      <main className="flex flex-col items-center justify-center mx-auto">
         {children}
       </main>
       <Footer />
