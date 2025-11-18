@@ -27,7 +27,7 @@ export default function ActivitiesSection() {
           {images?.map((image: ImageType) => (
             <ButtonImage
               key={image.name}
-              href={`${basePath}${image.href}`}
+              href={`${image.href}`}
               src={`${basePath}${image.src}`}
               alt={image.alt}
               height={297}
