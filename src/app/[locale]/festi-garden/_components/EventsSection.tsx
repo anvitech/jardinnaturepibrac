@@ -17,6 +17,7 @@ export default function EventsSection() {
   }
 
   const sectionData = (data?.sections?.events as EventsSectionType) || {"date": "", "poster": ""};
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <section className="flex flex-col items-center text-center mb-16 mt-8">
@@ -24,7 +25,7 @@ export default function EventsSection() {
       <h3 className="text-green-700 text-xl font-medium mb-6">{t('subtitle')}</h3>
 
       <Image
-        src={sectionData.poster}
+        src={basePath + sectionData.poster}
         width={210}
         height={297}
         alt="Festi'Jardin"

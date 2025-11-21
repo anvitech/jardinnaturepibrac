@@ -16,6 +16,7 @@ export default function PhotosSection() {
   }
 
   const photos = (data?.sections?.photos as ImageType[]) || [];
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <section className="my-32">
@@ -25,7 +26,7 @@ export default function PhotosSection() {
         {photos.map((photo) => (
           <div key={photo.alt} className="overflow-hidden rounded-lg shadow-lg">
             <Image
-              src={photo.src}
+              src={basePath + photo.src}
               alt={photo.alt}
               width={576}
               height={324}

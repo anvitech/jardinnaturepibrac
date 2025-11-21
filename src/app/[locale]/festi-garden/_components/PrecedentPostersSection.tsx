@@ -16,6 +16,7 @@ export default function PrecedentPostersSection() {
   }
 
   const posters = (data?.sections?.precedent_posters as PosterType[]) || [];
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <section className="my-32">
@@ -25,7 +26,7 @@ export default function PrecedentPostersSection() {
         {posters.map((poster) => (
           <div key={poster.year} className="overflow-hidden border-gray-400 border-1 shadow-lg">
             <Image
-              src={poster.image}
+              src={basePath + poster.image}
               alt={poster.year}
               width={210}
               height={297}

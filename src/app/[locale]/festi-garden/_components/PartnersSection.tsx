@@ -16,6 +16,7 @@ export default function PartnersSection() {
   }
 
   const partners = (data?.sections?.partners as PartnerType[]) || [];
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <section className="my-32">
@@ -25,7 +26,7 @@ export default function PartnersSection() {
         {partners.map((partner) => (
           <div key={partner.name} className="overflow-hidden border-gray-400 border-1 shadow-lg">
             <Image
-              src={partner.logo}
+              src={basePath + partner.logo}
               alt={partner.name}
               width={256}
               height={128}
