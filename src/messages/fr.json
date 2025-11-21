@@ -73,5 +73,33 @@
       "title": "Carte et Points d'intérêt",
       "description": "Un parcours de 1,5 km à travers divers milieux naturels pour observer et comprendre la biodiversité sous toutes ses formes."
     }
+  },
+  "festi_garden": {
+    "events": {
+      "title": "Festi'Jardin",
+      "subtitle": "Nature et Plantes",
+      "location": "Esplanade Sainte Germaine Centre Ville Pibrac (31820)"
+    },
+    "exhibitors": {
+      "title": "Exposants",
+      "professions": {
+        "nuresery_growers&horticulturists": "Pépinièristes & Horticulteurs",
+        "landscape_designers": "Décors du Jardin et du Balcon",
+        "associations": "Associations",
+        "animators": "Animations",
+        "restorations": "Restauration",
+        "securities": "Sécurité"
+      }
+    },
+    "photos": {
+      "title": "Photos Festi'Jardin",
+      "description": "Découvrez les moments forts de Festi'Jardin à travers notre galerie photo, capturant l'essence de la nature et des plantes en fête."
+    },
+    "partners": {
+      "title": "Partenaires Festi'Jardin"
+    },
+    "precedent_posters": {
+      "title": "Affiches des éditions précédentes"
+    }
   }
 }
