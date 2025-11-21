@@ -72,5 +72,33 @@
       "description": "Download the map of the Biodiversity Path to help you navigate and discover the various points of interest along the way.",
       "button_title": "Download the map"
     }
+  },
+  "festi_garden": {
+    "events": {
+      "title": "Festi'Jardin",
+      "subtitle": "Nature and Plants",
+      "location": "Esplanade Sainte Germaine Centre Ville Pibrac (31820)"
+    },
+    "exhibitors": {
+      "title": "Exposants",
+      "professions": {
+        "nuresery_growers&horticulturists": "Nuresery growers & Horticulturists",
+        "landscape_designers": "Garden and Balcony Designers",
+        "associations": "Associations",
+        "animators": "Animators",
+        "restorations": "Restorations",
+        "securities": "Securities"
+      }
+    },
+    "photos": {
+      "title": "Festi'Jardin Photos",
+      "description": "Discover the highlights of Festi'Jardin through our photo gallery, capturing the essence of nature and plants in celebration."
+    },
+    "partners": {
+      "title": "Festi'Jardin Partners"
+    },
+    "precedent_posters": {
+      "title": "Posters from Previous Editions"
+    }
   }
 }

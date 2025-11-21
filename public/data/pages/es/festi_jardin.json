@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "events": {
+      "date": "2025-11-9",
+      "poster": "/images/home/activities/sharing_knowledge_3.jpg"
+    },
+    "exhibitors": {
+      "nuresery_growers&horticulturists": [
+        {
+          "participant": "Florexo",
+          "specialities": "Aloes, succulentes, plantes exotiques"
+        },
+        {
+          "participant": "Nature & Culture",
+          "specialities": "Plantes carnivores"
+        },
+        {
+          "participant": "La Mini Pépi",
+          "specialities": "Plantes médicinales, odorantes"
+        }
+      ],
+      "landscape_designers": [
+        {
+          "participant": "L'Or Rouge de Gavache",
+          "specialities": "Safrans et dérivés"
+        },
+        {
+          "participant": "La Forges des Broussailles",
+          "specialities": "Outils forgés"
+        }
+      ],
+      "associations": [
+        {
+          "participant": "Jardin Nature Pibrac",
+          "specialities": "Partager les Savoirs"
+        },
+        {
+          "participant": "Milgado",
+          "specialities": "Poissons Migrateurs"
+        },
+        {
+          "participant": "Pétanielle",
+          "specialities": "Protection et développement de la biodiversité cultivée"
+        },
+        {
+          "participant": "Syndicat Apiculteurs d'Occitanie",
+          "specialities": "Protection de l'abeille Initiation à l'apiculture"
+        }
+      ],
+      "animators": [
+        {
+          "participant": "Atelier de Plantations",
+          "specialities": "AssociationJardin Nature Pibrac"
+        },
+        {
+          "participant": "Domaine d'En Cayla",
+          "specialities": "Balades en Poneys"
+        },
+        {
+          "participant": "Les Anes de Plagnole",
+          "specialities": "Ferme Pédagogique"
+        }
+      ],
+      "restorations": [
+        {
+          "participant": "La Galette de Frieda",
+          "specialities": "Gauffres belges & Galettes du nord"
+        },
+        {
+          "participant": "Kumquat Livraison",
+          "specialities": "Cuisine Vietnamienne"
+        },
+        {
+          "participant": "Les Voyages du Terroir",
+          "specialities": "Aligot Truffade Saucisse"
+        },
+        {
+          "participant": "Au trait d'union",
+          "specialities": "Bar Ambulant"
+        }
+      ],
+      "securities": [
+        {
+          "participant": "CSGP",
+          "specialities": "Agents de Sécurité"
+        }
+      ]
+    },
+    "photos": [
+      {
+        "src": "/images/home/activities/festigarden/20241110_085020.jpg",
+        "alt": "Photo 1 du Festi'Jardin"
+      }
+    ],
+    "partners": [
+      {
+        "name": "Aquilus",
+        "logo": "/images/home/activities/festigarden/partners/AQUILUS.gif",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Renault Pibrac Automobiles",
+        "logo": "/images/home/activities/festigarden/partners/Renault Pibrac-WEca9ddd5fea.jpg",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "EKIP-R revêtement résiné",
+        "logo": "/images/home/activities/festigarden/partners/ekip Resine-WE4cf9dd3180.png",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "SUPER U Léguevin",
+        "logo": "/images/home/activities/festigarden/partners/SuperU-WE9639d64b57.jpg",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Handicap Services",
+        "logo": "/images/home/activities/festigarden/partners/Handi CAP-WE7aacdf6d9d.jpg",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Radio de la save",
+        "logo": "/images/home/activities/festigarden/partners/Radio de la Save-WEd5aff3c31a.jpg",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Bégué Immobilier",
+        "logo": "/images/home/activities/festigarden/partners/Begue Immobilier-WE17b799fc66.jpg",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Biocoop",
+        "logo": "/images/home/activities/festigarden/partners/Biocoop logo perget 1-WEdb4ded31ad.png",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Ville pour tous",
+        "logo": "/images/home/activities/festigarden/partners/01_logotype_TM-VillesPourTous_baseline-couleur-WE56a8cb681d.png",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Ville de Pibrac",
+        "logo": "/images/home/activities/festigarden/partners/Pibrac-WEd7168b72ff.png",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Toulouse Métropole",
+        "logo": "/images/home/activities/festigarden/partners/TLSE METROPOLE.jpg",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "HG Conseil Départemental Haute-Garonne",
+        "logo": "/images/home/activities/festigarden/partners/CD31.gif",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Ocitanie",
+        "logo": "/images/home/activities/festigarden/partners/Occitanie.jpg",
+        "website": "https://www.facebook.com/comitedesfetesdepibrac"
+      }
+    ],
+    "precedent_posters": [
+      {
+        "year": 2024,
+        "image": "/images/home/activities/festigarden/posters/2024.jpeg"
+      },
+      {
+        "year": 2023,
+        "image": "/images/home/activities/festigarden/posters/2023.jpg"
+      },
+      {
+        "year": 2022,
+        "image": "/images/home/activities/festigarden/posters/2022.jpeg"
+      },
+      {
+        "year": 2021,
+        "image": "/images/home/activities/festigarden/posters/2021.jpg"
+      },
+      {
+        "year": 2019,
+        "image": "/images/home/activities/festigarden/posters/2019.jpg"
+      },
+      {
+        "year": 2018,
+        "image": "/images/home/activities/festigarden/posters/2018.jpg"
+      },
+      {
+        "year": 2017,
+        "image": "/images/home/activities/festigarden/posters/2017.jpg"
+      },
+      {
+        "year": 2016,
+        "image": "/images/home/activities/festigarden/posters/2016.jpg"
+      },
+      {
+        "year": 2015,
+        "image": "/images/home/activities/festigarden/posters/2015.jpg"
+      },
+      {
+        "year": 2014,
+        "image": "/images/home/activities/festigarden/posters/2014.jpg"
+      }
+    ]
+  }
+}

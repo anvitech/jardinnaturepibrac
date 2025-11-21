@@ -14,18 +14,46 @@ export interface ConferenceAgendaProps {
   speaker: ConferenceSpeaker
 }
 
+///////////////////////
+// Page Data Types
+///////////////////////
+
 export interface PageDataType {
   sections: SectionsType
 }
 
 export interface SectionsType {
   [key: string]: {
-    cards: ConferenceAgendaProps[]
-  } | {
-    articles: ArticleType[]
-  } | {
-    images: ImageType[]
+    [key: string]: ConferenceAgendaProps[] | ArticleType[] | ImageType[]
   }
+  | EventsSectionType | ExhibitorsSectionType | ImageType[] | PartnerType[] | PosterType[];
+}
+
+// Sections Data Types
+
+export interface PosterType {
+  year: string;
+  image: string;
+}
+
+export interface PartnerType {
+  name: string;
+  logo: string;
+  website?: string;
+}
+
+export type ExhibitorsSectionType = {
+  [key: string]: ExhibitorType[];
+}
+
+type ExhibitorType = {
+  participant: string;
+  specialities: string;
+}
+
+export type EventsSectionType = {
+  date: string;
+  poster: string;
 }
 
 export interface ArticleType {
