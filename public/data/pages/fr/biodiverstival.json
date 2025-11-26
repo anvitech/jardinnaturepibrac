@@ -1,0 +1,117 @@
+{
+  "sections": {
+    "events": {
+      "poster": "/images/home/activities/biodiverstival/affiche_provisoire_4-page001.jpeg",
+      "alt": "Affiche Biodiver'Stival 2026",
+      "date": "15 au 19 Avril 2026"
+    },
+    "program": [
+      {
+        "category": "conference",
+        "date": "Mercredi 15 Avril 2026 20h30",
+        "type": "CinéDébat ou Conférence",
+        "title": "Biodiver Stival"
+      },
+      {
+        "category": "conference",
+        "location": "Salle Polyvalente 31820 Pibrac",
+        "date": "Jeudi 16 Avril 2026 20h30",
+        "type": "CinéDébat ou Conférence",
+        "title": "Biodiver Stival"
+      },
+      {
+        "category": "conference",
+        "date": "Vendredi 17 Avril 2026 20h30",
+        "type": "CinéDébat ou Conférence",
+        "title": "Biodiver Stival"
+      },
+      {
+        "category": "conference",
+        "date": "Samedi 18 Avril 2026 20h30",
+        "type": "CinéDébat ou Conférence",
+        "title": "Biodiver Stival"
+      },
+      {
+        "category": "conference",
+        "date": "Dimanche 19 Avril 2026 10h",
+        "type": "Cinépetit Dej",
+        "title": "Biodiver Stival"
+      }
+    ],
+    "partners": [
+      {
+        "name": "Ville pour tous",
+        "logo": "/images/home/activities/partners/01_logotype_TM-VillesPourTous_baseline-couleur-WE56a8cb681d.png",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Ocitanie",
+        "logo": "/images/home/activities/partners/Occitanie.jpg",
+        "website": "https://www.facebook.com/comitedesfetesdepibrac"
+      },
+      {
+        "name": "HG Conseil Départemental Haute-Garonne",
+        "logo": "/images/home/activities/partners/CD31.gif",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Toulouse Métropole",
+        "logo": "/images/home/activities/partners/TLSE METROPOLE.jpg",
+        "website": "https://www.pibrac.fr/"
+      },
+      {
+        "name": "Ville de Pibrac",
+        "logo": "/images/home/activities/partners/Pibrac-WEd7168b72ff.png",
+        "website": "https://www.pibrac.fr/"
+      }
+    ],
+    "posters": [
+      {
+        "alt": "Les agrofrangins - 2025",
+        "image": "/images/home/activities/biodiverstival/posters/LES_AGROFRANGINS_Affiche_web.jpg"
+      },
+      {
+        "alt": "Planète Collemboles - 2025",
+        "image": "/images/home/activities/biodiverstival/posters/Affiche_film_planete_collemboles_web.jpg"
+      },
+      {
+        "alt": "Au pays de l'abeille noire - 2025",
+        "image": "/images/home/activities/biodiverstival/posters/420195079_431916709373239_4414629257960533038_n.jpg"
+      },
+      {
+        "alt": "Le temps des vautours - 2025",
+        "image": "/images/home/activities/biodiverstival/posters/afficheVF.jpg"
+      },
+      {
+        "alt": "La Panthère des Neiges - 2025",
+        "image": "/images/home/activities/biodiverstival/posters/affiche_la-panthere-des-neiges_ok-640x853.jpg"
+      }
+    ],
+    "precedent_posters": [
+      {
+        "alt": "2024 Edition Biodiver'Stival",
+        "image": "/images/home/activities/biodiverstival/precedent_posters/Affiche_A3_logos_Flyer-page001.jpg"
+      },
+      {
+        "alt": "2023 Edition Biodiver'Stival",
+        "image": "/images/home/activities/biodiverstival/precedent_posters/Affiche_2023.jpeg"
+      },
+      {
+        "alt": "2022 Edition Biodiver'Stival",
+        "image": "/images/home/activities/biodiverstival/precedent_posters/2022.jpeg"
+      },
+      {
+        "alt": "2021 Edition Biodiver'Stival",
+        "image": "/images/home/activities/biodiverstival/precedent_posters/2021.jpg"
+      },
+      {
+        "alt": "2019 Edition Biodiver'Stival",
+        "image": "/images/home/activities/biodiverstival/precedent_posters/2019.jpg"
+      },
+      {
+        "alt": "2018 Edition Biodiver'Stival",
+        "image": "/images/home/activities/biodiverstival/precedent_posters/2018.jpg"
+      }
+    ]
+  }
+}
