@@ -4,12 +4,10 @@ import { PosterType } from "@/interfaces/sections";
 interface PostersSectionProps {
   posters: PosterType[];
   title: string;
-  width: number;
-  height: number;
 }
 
 export default function PostersSection({
-  posters, title, width, height
+  posters, title
 }: Readonly<PostersSectionProps>) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
@@ -22,14 +20,14 @@ export default function PostersSection({
             key={poster.alt}
             className={`
               overflow-hidden border-gray-400 border-1 shadow-lg
-              relative w-[${width}px] h-[${height}px]
+              relative w-[210px] h-[297px]
             `}
           >
             <Image
               src={basePath + poster.image}
               alt={poster.alt}
               fill={true}
-              style={{ objectFit: 'contain', zIndex: 0 }}
+              style={{ objectFit: 'contain' }}
             />
           </div>
         ))}

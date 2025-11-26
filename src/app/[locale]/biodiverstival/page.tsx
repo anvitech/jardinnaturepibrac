@@ -50,14 +50,10 @@ export default function BiodiverstivalPage() {
       <PostersSection
         posters={posters}
         title={t('posters.title')}
-        width={210}
-        height={297}
       />
       <PostersSection
         posters={precedent_posters}
         title={t('precedent_posters.title')}
-        width={210}
-        height={297}
       />
     </SectionLayout>
   )
