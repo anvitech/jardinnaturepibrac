@@ -6,7 +6,7 @@ import { basePath } from '../../../next.config';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 bg-opacity-0 border-b-2 border-gray-600 bg-gray-100 shadow-lg flex items-center justify-between w-full">
+    <header className="z-100 sticky top-0 bg-opacity-0 border-b-2 border-gray-600 bg-gray-100 shadow-lg flex items-center justify-between w-full">
       <div className="flex lg:flex-1 align-items-center">
         <Link href="/" className="-m-1.5 p-1.5">
           <Image
