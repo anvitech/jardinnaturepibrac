@@ -15,7 +15,7 @@ export default function EventsSection() {
     return (<ErrorDataFetching />);
   }
 
-  const sectionData = (data?.sections?.events as EventsSectionType) || {"date": "", "poster": "", "alt": ""};
+  const sectionData = (data?.sections?.events as EventsSectionType) || {"date": "", "poster": "#", "alt": ""};
 
   return (
     <EventSection

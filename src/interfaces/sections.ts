@@ -27,15 +27,22 @@ export interface SectionsType {
     [key: string]:
     ConferenceAgendaProps[]
     | ArticleType[] | ImageType[]
-    | IntroductionType | HeroSectionType
+    | IntroductionType | HeroSectionType | WorkshopPhotosSectionType
   }
   | EventsSectionType | ExhibitorsSectionType
   | ImageType[] | PartnerType[] | PosterType[]
   | IntroductionType | HeroSectionType
+  | WorkshopPhotosSectionType
   | ConferenceAgendaProps[];
 }
 
 // Sections Data Types
+
+export interface WorkshopPhotosSectionType {
+  title?: string;
+  description?: string[];
+  photos: ImageType[];
+}
 
 export interface HeroSectionType {
   logo: ImageType;

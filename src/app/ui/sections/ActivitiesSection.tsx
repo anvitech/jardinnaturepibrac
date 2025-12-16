@@ -28,7 +28,7 @@ export default function ActivitiesSection() {
             <ButtonImage
               key={image.name}
               href={`${image.href}`}
-              src={`${basePath}${image.src}`}
+              src={`${basePath}${image.src || '#'}`}
               alt={image.alt}
               height={297}
               width={210}

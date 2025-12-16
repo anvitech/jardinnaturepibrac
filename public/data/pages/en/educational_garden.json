@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "workshop": {
+      "title": "Pibrac Educational Garden",
+      "description": [
+        "In January 2015, a convention was signed with the City Council of Pibrac, allowing the Jardin Nature Pibrac (JNP) association to have a 400m2 plot in the Tambourettes area to create an educational garden based on agroecology principles.",
+        "The spirit behind creating this garden was to allow children from Pibrac schools and a charitable association to discover and practice gardening in a wider way, and to interest them in plant life, soil fauna, and the environment. Another goal was to allow JNP members to regularly meet to share their experiences, practice new gardening techniques, maintain the garden, and participate in workshops led by an organic farmer and various other activities throughout the year. JNP finances, decorates, plants, and manages the garden, a pergola and a table have been installed.",
+        "The location is open to all. An intergenerational cone competition is organized every year in the garden, involving nurseries, schools, EHPAD, and Pibrac associations. Young people also participate in decorating and some garden arrangements. JNP participates in the preservation of ancient cereals in support of the Pétanielle association. Pumpkins harvested from the garden are sold to benefit the Telethon and Restos del Corazón.",
+        "Conviviality reigns in the various activities of the educational garden, as well as in all those organized by Jardin Nature Pibrac."
+      ],
+      "photos": [
+        {
+          "src": "/images/educational_garden/Epouvantails_25.jpg",
+          "alt": "Scarecrow Competition, June 21, 2025"
+        },
+        {
+          "src": "/images/educational_garden/20250412_105241.jpg",
+          "alt": "Tomato Grafting Workshop, April 12, 2025"
+        },
+        {
+          "src": "/images/educational_garden/Epouvantails_24.jpg",
+          "alt": "Scarecrow Competition, June 22, 2024"
+        },
+        {
+          "src": "/images/educational_garden/Tomates.jpg",
+          "alt": "Garden Workshop, March 30, 2024: Grafting Tomatoes"
+        },
+        {
+          "src": "/images/educational_garden/20240309_150221.jpg",
+          "alt": "Garden Workshop, March 9, 2024"
+        }
+      ]
+    }
+  }
+}
