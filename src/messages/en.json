@@ -44,7 +44,6 @@
   "Agenda": {
     "next_conference": {
       "title": "Jardin Nature de Pibrac Agenda",
-      "description": "The presentation will be led by Marie-Pia Marchant, a third-year doctoral student at the University of Toulouse, co-supervised by Georges Zissis (LAPLACE Laboratory - Physics of Light) and Dr. Luc Legal, Senior Lecturer at the CRBE (Center for Research on Biodiversity and Environment). A fascinating topic on the impact of light pollution on biodiversity. Discover how artificial lighting, by disrupting the natural cycle of day and night, modifies the behaviors, interactions, and reproduction of living species. It will also be an opportunity to explore the diversity and beauty of moths, these often invisible but essential creatures to our ecosystems, as well as to take a broader look at the impact of this light pollution on different groups of animals and plants.",
       "visio_link": "Join the conference via this link"
     },
     "current_season": {
@@ -55,11 +54,6 @@
   "BiodiversityPath": {
     "introduction": {
       "title": "Discover our Biodiversity Path",
-      "description": {
-        "p1": "The Biodiversity Path at Jardin Nature de Pibrac is a unique journey through various ecosystems designed to educate and inspire visitors about the importance of biodiversity. Spanning over 2 kilometers, the path features a variety of habitats including wetlands, meadows, woodlands, and pollinator gardens.",
-        "p2": "As you walk along the path, you'll encounter informative signage that highlights the flora and fauna native to each habitat, as well as the ecological roles they play. Interactive stations provide hands-on learning experiences for visitors of all ages, making it an ideal destination for families, school groups, and nature enthusiasts.",
-        "p3": "The Biodiversity Path is not only a place for education but also a sanctuary for wildlife. Efforts have been made to create habitats that support local species, from planting native vegetation to installing birdhouses and insect hotels. Visitors are encouraged to observe and appreciate the diverse life forms that call this area home."
-      },
       "button_title": "Explore the path"
     },
     "visit": {

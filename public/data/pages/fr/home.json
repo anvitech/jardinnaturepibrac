@@ -1,5 +1,23 @@
 {
   "sections": {
+    "hero": {
+      "logo": {
+        "alt": "Logo de Jardin Naturel de Pibrac",
+        "src": "/images/logos/logo_JNP_180_300.gif"
+      },
+      "events": [
+        {
+          "alt": "interaction plantes-plantes",
+          "src": "/images/home/events/Events-WEbd54850a90.jpg",
+          "href": "/agenda"
+        },
+        {
+          "alt": "La lettre de Jardin Naturel de Pibrac",
+          "src": "/images/home/events/Events-WEa250e4f78a.jpg",
+          "href": "/letter"
+        }
+      ]
+    },
     "activities": {
       "images": [
         {

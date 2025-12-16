@@ -24,13 +24,29 @@ export interface PageDataType {
 
 export interface SectionsType {
   [key: string]: {
-    [key: string]: ConferenceAgendaProps[] | ArticleType[] | ImageType[]
+    [key: string]:
+    ConferenceAgendaProps[]
+    | ArticleType[] | ImageType[]
+    | IntroductionType | HeroSectionType
   }
-  | EventsSectionType | ExhibitorsSectionType | ImageType[] | PartnerType[] | PosterType[]
+  | EventsSectionType | ExhibitorsSectionType
+  | ImageType[] | PartnerType[] | PosterType[]
+  | IntroductionType | HeroSectionType
   | ConferenceAgendaProps[];
 }
 
 // Sections Data Types
+
+export interface HeroSectionType {
+  logo: ImageType;
+  events: ImageType[];
+}
+
+export interface IntroductionType {
+  title?: string;
+  description: string[];
+  image?: ImageType;
+}
 
 export interface PosterType {
   year?: string;
