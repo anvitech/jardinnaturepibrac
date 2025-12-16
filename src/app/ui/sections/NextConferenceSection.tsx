@@ -1,23 +1,44 @@
 "use client";
 
-import {useTranslations} from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+
 import ButtonImage from '../ButtonImage';
 import GoogleMapCard from '../GoogleMapCard';
+import { usePageData } from '@/app/hooks/use-data';
+import ErrorDataFetching from '../ErrorDataFetching';
+import { IntroductionType, ImageType } from '@/interfaces/sections';
+
 
 export default function NextConferenceSection() {
   const t = useTranslations('Agenda');
+  const locale = useLocale();
+
+  // Get page data
+  const { data, error } = usePageData('agenda', locale);
+  if (error) { return <ErrorDataFetching /> }
+
+  // Local variables
+  const conference = data?.sections?.next_conference as IntroductionType || { description: [], image: { alt: '', src: '#' } };
+  const description = conference.description || [];
+  const conferenceImage = conference.image as ImageType || { alt: '', src: '#' };
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <section id="next_conference" className="py-8 px-4 w-full text-center mb-8">
       <h1 className="text-center text-green-700 text-3xl font-bold mb-4">{t('next_conference.title')}</h1>
+
       <ButtonImage
-        href="https://jardinnaturepibrac.org/Service%20Civique.htm"
-        src={`${basePath}/images/agenda/next_conference.jpg`}
-        alt='Next conference'
+        href="#"
+        src={`${basePath}${conferenceImage.src}`}
+        alt={conferenceImage.alt}
         width={800}
+        height={400}
       />
-      <p className='my-4 mx-4 text-justify text-wrap text-[12px]/[16px]'>{t('next_conference.description')}</p>
+
+      {description.map((para, index) => (
+        <p key={index} className='my-4 mx-4 text-justify text-wrap text-[14px]/[18px]'>{para}</p>
+      ))}
+
       <div id="agenda-access" className="mt-8 flex flex-col gap-4 justify-center items-center">
         <a
           href="https://meet.goto.com/jardinaturepibrac/pesticides"

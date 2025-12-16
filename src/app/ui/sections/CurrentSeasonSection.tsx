@@ -9,6 +9,8 @@ import { SectionsType, ConferenceAgendaProps } from '@/interfaces/sections';
 export default function CurrentSeasonSection() {
   const t = useTranslations('Agenda');
   const locale = useLocale();
+
+  // Get page data
   const { data } = usePageData('agenda', locale);
   const sections: SectionsType = data?.sections ?? { current_season: { cards: [] } };
   const currentSeason = sections.current_season as { cards: ConferenceAgendaProps[] };
@@ -23,7 +25,7 @@ export default function CurrentSeasonSection() {
         src={`${basePath}/images/agenda/current_season.jpg`}
         alt={'Current season'}
         className="m-auto"
-        width={100}
+        width={64}
         height={64}
       />
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8 px-4'>

@@ -1,5 +1,16 @@
 {
   "sections": {
+    "next_conference": {
+      "description": [
+        "La présentation sera animée par Marie-Pia Marchant, doctorante en troisième année à l’Université de Toulouse, co-dirigée par Georges Zissis (Laboratoire LAPLACE - Physique de la lumière) et Dr. Luc Legal, Maître de conférences au CRBE (Centre de Recherche sur la Biodiversité et l'Environnement).",
+        "Un sujet fascinant sur l'impact de la pollution lumineuse sur la biodiversité. Découvrez comment l’éclairage artificiel, en perturbant le cycle naturel du jour et de la nuit, modifie les comportements, les interactions et la reproduction des espèces vivantes.",
+        "Ce sera également l'occasion d'explorer la diversité et la beauté des papillons de nuit, ces créatures souvent invisibles mais essentielles à nos écosystèmes, mais aussi de faire un un tour d’horizon plus large sur l'impact de cette pollution lumineuse sur différents groupes d'animaux et de plantes."
+      ],
+      "image": {
+        "alt": "next conference",
+        "src": "/images/agenda/next_conference.jpg"
+      }
+    },
     "current_season": {
       "cards": [
         {

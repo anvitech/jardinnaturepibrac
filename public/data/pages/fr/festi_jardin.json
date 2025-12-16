@@ -89,8 +89,16 @@
     },
     "photos": [
       {
-        "src": "/images/home/activities/festigarden/20241110_085020.jpg",
+        "src": "/images/home/activities/festigarden/photos/DSC04174-1.jpg",
         "alt": "Photo 1 du Festi'Jardin"
+      },
+      {
+        "src": "/images/home/activities/festigarden/photos/DSC04175-1.jpg",
+        "alt": "Photo 2 du Festi'Jardin"
+      },
+      {
+        "src": "/images/home/activities/festigarden/photos/DSC04184-1.jpg",
+        "alt": "Photo 3 du Festi'Jardin"
       }
     ],
     "partners": [

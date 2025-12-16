@@ -1,5 +1,16 @@
 {
   "sections": {
+    "introduction": {
+      "description": [
+        "The Biodiversity Path at Jardin Nature de Pibrac is a unique journey through various ecosystems designed to educate and inspire visitors about the importance of biodiversity. Spanning over 2 kilometers, the path features a variety of habitats including wetlands, meadows, woodlands, and pollinator gardens.",
+        "As you walk along the path, you'll encounter informative signage that highlights the flora and fauna native to each habitat, as well as the ecological roles they play. Interactive stations provide hands-on learning experiences for visitors of all ages, making it an ideal destination for families, school groups, and nature enthusiasts.",
+        "The Biodiversity Path is not only a place for education but also a sanctuary for wildlife. Efforts have been made to create habitats that support local species, from planting native vegetation to installing birdhouses and insect hotels. Visitors are encouraged to observe and appreciate the diverse life forms that call this area home."
+      ],
+      "image": {
+        "src": "/images/biodiversity_path/path.jpg",
+        "alt": "Biodiversity Path"
+      }
+    },
     "discovery": {
       "articles": [
         {

@@ -44,7 +44,6 @@
   "Agenda": {
     "next_conference": {
       "title": "Agenda Jardin Nature de Pibrac",
-      "description": "La presentación estará a cargo de Marie-Pia Marchant, estudiante de doctorado de tercer año en la Universidad de Toulouse, codirigida por Georges Zissis (Laboratorio LAPLACE - Física de la Luz) y el Dr. Luc Legal, profesor titular del CRBE (Centro de Investigación sobre Biodiversidad y Medio Ambiente). Un tema fascinante sobre el impacto de la contaminación lumínica en la biodiversidad. Descubra cómo la iluminación artificial, al alterar el ciclo natural del día y la noche, modifica el comportamiento, las interacciones y la reproducción de las especies vivas. También será una oportunidad para explorar la diversidad y la belleza de las polillas, estas criaturas a menudo invisibles pero esenciales para nuestros ecosistemas, así como para analizar con mayor profundidad el impacto de esta contaminación lumínica en diferentes grupos de animales y plantas.",
       "visio_link": "Únase a la conferencia a través de este enlace"
     },
     "current_season": {
@@ -55,10 +54,6 @@
   "BiodiversityPath": {
     "introduction": {
       "title": "Descubra nuestro Sendero de Biodiversidad",
-      "description": {
-        "p1": "El Sendero de Biodiversidad en el Jardín Natural de Pibrac es un viaje único a través de varios ecosistemas diseñado para educar e inspirar a los visitantes sobre la importancia de la biodiversidad. Con una extensión de más de 2 kilómetros, el sendero presenta una variedad de hábitats que incluyen humedales, praderas, bosques y jardines para polinizadores.",
-        "p2": "Mientras camina por el sendero, encontrará señalización informativa que destaca la flora y fauna nativas de cada hábitat, así como los roles ecológicos que desempeñan. Las estaciones interactivas ofrecen experiencias de aprendizaje prácticas para visitantes de todas las edades, lo que lo convierte en un destino ideal para familias, grupos escolares y entusiastas de la naturaleza."
-      },
       "button_title": "Explorar el sendero"
     },
     "visit": {

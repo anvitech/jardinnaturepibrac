@@ -1,5 +1,16 @@
 {
   "sections": {
+    "next_conference": {
+      "description": [
+        "The presentation will be led by Marie-Pia Marchant, a third-year doctoral student at the University of Toulouse, co-supervised by Georges Zissis (LAPLACE Laboratory - Physics of Light) and Dr. Luc Legal, Senior Lecturer at the CRBE (Center for Research on Biodiversity and Environment).",
+        "A fascinating topic on the impact of light pollution on biodiversity. Discover how artificial lighting, by disrupting the natural cycle of day and night, modifies the behaviors, interactions, and reproduction of living species.",
+        "It will also be an opportunity to explore the diversity and beauty of moths, these often invisible but essential creatures to our ecosystems, as well as to take a broader look at the impact of this light pollution on different groups of animals and plants."
+      ],
+      "image": {
+        "alt": "next conference",
+        "src": "/images/agenda/next_conference.jpg"
+      }
+    },
     "current_season": {
       "cards": [
         {

@@ -1,5 +1,15 @@
 {
   "sections": {
+    "introduction": {
+      "description": [
+        "El Sendero de Biodiversidad en el Jardín Natural de Pibrac es un viaje único a través de varios ecosistemas diseñado para educar e inspirar a los visitantes sobre la importancia de la biodiversidad. Con una extensión de más de 2 kilómetros, el sendero presenta una variedad de hábitats que incluyen humedales, praderas, bosques y jardines para polinizadores.",
+        "Mientras camina por el sendero, encontrará señalización informativa que destaca la flora y fauna nativas de cada hábitat, así como los roles ecológicos que desempeñan. Las estaciones interactivas ofrecen experiencias de aprendizaje prácticas para visitantes de todas las edades, lo que lo convierte en un destino ideal para familias, grupos escolares y entusiastas de la naturaleza."
+      ],
+      "image": {
+        "src": "/images/biodiversity_path/path.jpg",
+        "alt": "El Sendero de Biodiversidad"
+      }
+    },
     "discovery": {
       "articles": [
         {

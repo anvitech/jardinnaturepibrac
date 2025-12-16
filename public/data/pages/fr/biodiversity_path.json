@@ -1,5 +1,19 @@
 {
   "sections": {
+    "introduction": {
+      "description": [
+        "Le Chemin de la Biodiversité de Pibrac a été réalisé par l'Association Jardin Nature Pibrac  dans le cadre d’un appel à projet \"Sensibilisation à la biodiversité\" de Toulouse Métropole et encouragé par la municipalité de Pibrac.",
+        "Ce circuit est une boucle de 4 km dans une zone verte et bleue intermédiaire entre la ville, la forêt de Bouconne et les zones agricoles.",
+        "Partant du parking de la zone loisirs des Tambourettes, route de Mondonville à Pibrac le chemin traverse l'aire de loisirs pour rejoindre le Verger Conservatoire et le Jardin Pédagogique, il se poursuit sur le chemin des Ânes et revient par le Chemin de las Coumos.",
+        "Le circuit emprunte des chemins accessibles PMR.",
+        "Il est possible de réduire le parcours de moitié.",
+        "Afin de limiter son impact sur l’environnement, les 17 points d’intérêt sont marqués de simples bornes en bois qui permettent d’accéder à des informations audio et vidéo en plusieurs langues."
+      ],
+      "image": {
+        "src": "/images/biodiversity_path/path.jpg",
+        "alt": "Chemin de la Biodiversité"
+      }
+    },
     "discovery": {
       "articles": [
         {
