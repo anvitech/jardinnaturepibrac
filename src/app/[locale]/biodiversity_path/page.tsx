@@ -1,6 +1,6 @@
-import BiodversityPathSection from '@/app/ui/sections/BiodiversityPathSection';
-import BiodiversityDiscoverySection from '@/app/ui/sections/BiodiversityDiscoverySection';
-import PointsOfInterestMapSection from '@/app/ui/sections/PointsOfInterestMapSection';
+import BiodversityPathSection from '@/app/[locale]/biodiversity_path/_components/BiodiversityPathSection';
+import BiodiversityDiscoverySection from '@/app/[locale]/biodiversity_path/_components/BiodiversityDiscoverySection';
+import PointsOfInterestMapSection from '@/app/[locale]/biodiversity_path/_components/PointsOfInterestMapSection';
 import SectionLayout from '@/app/ui/sections/SectionLayout';
 
 export default function BiodiversityPathPage() {

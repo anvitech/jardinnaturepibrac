@@ -110,5 +110,10 @@
     "precedent_posters": {
       "title": "Editions précédentes"
     }
+  },
+  "educational_garden": {
+    "workshop": {
+      "title": "Jardin pédagogique de Pibrac"
+    }
   }
 }

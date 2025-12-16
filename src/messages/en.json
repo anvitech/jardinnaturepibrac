@@ -112,5 +112,10 @@
     "precedent_posters": {
       "title": "Previous Editions"
     }
+  },
+  "educational_garden": {
+    "workshop": {
+      "title": "Pibrac Educational Garden"
+    }
   }
 }

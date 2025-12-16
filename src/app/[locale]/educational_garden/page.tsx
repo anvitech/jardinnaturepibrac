@@ -1,9 +1,12 @@
+
 import SectionLayout from "@/app/ui/sections/SectionLayout";
+import WorkshopSection from "./_components/WorkshopSection";
+
 
 export default function EducationalGardenPage() {
   return (
     <SectionLayout>
-      <p>Jardin pédagogique page content</p>
+      <WorkshopSection />
     </SectionLayout>
   )
 }

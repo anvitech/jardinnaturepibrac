@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "workshop": {
+      "title": "Jardin Pédagogique De Pibrac",
+      "description": [
+        "En janvier 2015, une convention avec la Mairie de Pibrac, permet à l’association Jardin Nature Pibrac (JNP) de disposer d’un terrain de 400m2 dans la zone des Tambourettes pour y créer un jardin pédagogique basé sur les principes de l’agroécologie.En janvier 2015, une convention avec la Mairie de Pibrac, permet à l’association Jardin Nature Pibrac (JNP) de disposer d’un terrain de 400m2 dans la zone des Tambourettes pour y créer un jardin pédagogique basé sur les principes de l’agroécologie.",
+        "L’esprit des créateurs de ce jardin a été de permettre aux enfants des écoles de Pibrac et à une association caritative de découvrir et de pratiquer le jardinage et de façon plus large de les intéresser à la vie des plantes, à la faune du sol et à l’environnement. L’autre but est de permettre aux adhérents de l’association de se retrouver régulièrement pour partager leurs expériences, pratiquer de nouvelles formes de jardinage, entretenir le jardin, participer à des ateliers animés par une maraîchère bio et à plusieurs manifestations tout au long de l’année. JNP finance, aménage, plante et gère le jardin, une pergola et une table ont été installés.",
+        "Le lieu est ouvert à tous. Un concours intergénérationnel d'épouvantails auquel participent les crèches, les écoles, les EHPAD et des associations de Pibrac, est organisé chaque année dans le jardin. Les jeunes participent également à la décoration et à quelques aménagements du jardin. JNP participe à la sauvegarde des céréales anciennes en soutien de l’association Pétanielle. Les Citrouilles récoltées dans le jardin sont revendues au bénéfice du Téléthon et des Restos du Cœur.",
+        "La convivialité préside aux diverses activités du jardin pédagogique comme d’ailleurs à toutes celles organisées par Jardin Nature Pibrac."
+      ],
+      "photos": [
+        {
+          "src": "/images/educational_garden/Epouvantails_25.jpg",
+          "alt": "Concours Epouvantails 21 Juin 2025"
+        },
+        {
+          "src": "/images/educational_garden/20250412_105241.jpg",
+          "alt": "Atelier Greffage de Tomates 12 Avril 2025"
+        },
+        {
+          "src": "/images/educational_garden/Epouvantails_24.jpg",
+          "alt": "Concours Epouvantails 22 juin 2024"
+        },
+        {
+          "src": "/images/educational_garden/Tomates.jpg",
+          "alt": "Atelier Jardin du 30 Mars 2024 Greffage de Tomates"
+        },
+        {
+          "src": "/images/educational_garden/20240309_150221.jpg",
+          "alt": "Atelier Jardin du 9 Mars 2024"
+        }
+      ]
+    }
+  }
+}
